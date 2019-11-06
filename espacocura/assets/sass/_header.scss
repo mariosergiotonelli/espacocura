@@ -1,0 +1,269 @@
+.headerFritz{
+  background-color: $header;
+
+  .topo{
+    left: 0;
+    height: 90px;
+    margin: 0 auto;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    @include breakpoint($note){
+      position: relative;
+    }
+    @include breakpoint($celular){
+      height: 70px;
+    }
+
+    .logo{
+      background: url("../img/logo.png");
+      background-repeat: no-repeat;     
+      display: inline-block;
+      float: left;
+      height: 53px; 
+      margin: 10px 20px 10px 50px;      
+      text-indent:-999px;       
+      width: 190px;
+      @include breakpoint($celular){
+        background-size: 90%;
+        display: block;
+        float: none;
+        margin: 20px auto 0;
+        text-align: center;
+        width: 190px;
+      }
+    }
+
+    .menuResponsivo {
+      -webkit-font-smoothing: antialiased;        
+      border: none;
+      border-radius: 0.1875em;
+      color: white;
+      display: inline-block;
+      font-size: 1em;
+      font-weight: bold;
+      line-height: 1;
+      padding: .75em 1em;
+      text-decoration: none;
+      &:hover{          
+        color: white;
+      }
+    }
+
+    .menu-btn {
+      display: none;
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      background-color: $header;
+      &:hover, &:focus {
+        outline: none;
+      }
+      @include breakpoint($note){   
+        display: block;
+        background-color: transparent;
+      }
+
+    }
+
+    .menuLink {
+      @include breakpoint($note){
+        border-bottom: 4px solid black;
+        border-radius: 0;
+        display: block;
+        top: 25px;        
+      }
+      @include breakpoint($celular){
+        top: 0;
+      }
+      &:before {
+        content: "";
+        background: #fff;
+        display: block;
+        height: 4px;
+        left: 50%;
+        margin: 0 0 0 -16px;
+        position: absolute;
+        top: 16px;
+        width: 32px;
+        @include transition(all .3s ease);
+        @include breakpoint($note){
+          background: #000;
+        }
+      }
+
+      &:after {
+        content: ""; 
+        background: #fff;
+        height: 4px;
+        width: 32px;
+        position: absolute;
+        top: 8px;
+        left: 50%;
+        margin: 0 0 0 -16px;
+        display: block;
+        display: block; 
+        @include transition(all .3s ease);
+        @include breakpoint($note){
+          background: #000;
+        }
+      }
+
+      &.close {
+        border: none;
+        &:before {
+          transform: rotate(45deg); 
+          top: 15px; 
+          width: 25px; 
+          margin: 0 0 0 -13px;
+        }
+        &:after {
+          transform: rotate(-45deg); 
+          top: 15px; 
+          width: 25px; 
+          margin: 0 0 0 -13px;
+        }
+      }
+    }
+
+    .menu {
+      float: right;
+      margin: 0px 40px 0 0;
+      &__list {
+        overflow: hidden;
+        padding-left: 0;
+        margin: 0;
+        list-style: none;
+        width: 100%;
+        @include breakpoint($celular){
+          margin: 15px 0;
+        }
+      }
+      &__item{
+        float: left;
+        text-align: center;
+      }
+      &__link{
+        color: #fff;
+        display: block;
+        font:{
+          family: $font-NexaB;
+          size: 13px;
+          weight: bold;
+        }
+        height: 90px;
+        line-height: 6; 
+        padding: 0 1.5em;
+        @include transition(color .3s ease);
+        text:{
+          align: center;
+          transform: uppercase;
+        }
+        @include breakpoint($note){
+          color: #000;
+        }
+        &:hover, &:focus {
+          color: $bgMenu;
+        }
+        .facebook{
+          background: url('../img/face-site-header.png');
+          @include redesHeader;
+        }
+        .instagram{
+          background: url('../img/instagram-site-header.png');
+          @include redesHeader;
+        }
+      }
+      .redesHeader{
+        padding: 0 5px;
+      }
+
+      @include breakpoint($note){
+        float: none;
+        margin: 0;
+        &__item{
+          display: none;
+          float: none;
+          @include transformMenu(translateX(-100%));
+          transition: all .3s ease-out;
+          &--play {
+            display: block;
+            @include transformMenu(translateX(0));        
+          }
+        }
+        &__item + &__item {
+          border-top: 1px solid darken($bgMenu, 5%);
+        }
+        &__link {
+          background: $header;
+          height: auto;
+          line-height: 3;
+        }
+      }
+    }
+  }
+  .fixar{
+    background-color: $header;
+    height: 55px;
+    position: fixed !important;
+    transition: all .5s ease;
+    width: 100%;
+
+    .logo{
+      background-position: center center;
+      background-size: 80%;
+      height: 55px;
+      margin: 0px 0 0px 50px;
+      width: 160px;
+      @include breakpoint($celular){
+        margin: 0 auto;
+      }
+    }
+
+    .menu{
+      &__list{
+        @include breakpoint($celular){
+          margin: 0;
+        }
+      }
+      &__link{
+        color: #000;
+        height: 55px;
+        line-height: 4.5;
+        @include breakpoint($note){
+          height: auto;
+          line-height: 3;
+        }
+        &:hover{
+          color: #000;
+        }
+
+        .facebook, .instagram{
+          margin-top: 15px;
+        }
+        .facebook{
+          background: url('../img/face-site-fixar.png');
+          @include breakpoint($note){
+            background-position-y: 0px;
+            margin-top: 0px;
+          }
+        }
+        .instagram{
+          background: url('../img/instagram-site-fixar.png');
+          @include breakpoint($note){
+            background-position-y: 0px;
+            margin-top: 0px;
+          }
+        }
+      }
+    }
+
+    .menuLink {
+      top: 10px;
+      &:before, &:after {
+        background: #000;
+      }
+    }
+  }
+}

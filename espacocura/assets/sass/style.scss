@@ -1,0 +1,14 @@
+@import "node_modules/breakpoint-sass/stylesheets/_breakpoint.scss";
+@import "node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "node_modules/animate.css/animate.min.css";
+
+@import "_fonts.scss";
+@import "_mixins.scss";
+@import "_variables.scss";
+
+@import "_header.scss";
+@import "_index.scss";
+@import "_queijo.scss";
+@import "_produtos.scss";
+@import "_historia.scss";
+@import "_footer.scss";

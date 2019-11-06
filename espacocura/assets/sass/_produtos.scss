@@ -1,0 +1,198 @@
+.mainProdutos{
+  background-color: $bgPagProdutos;
+
+  .tituloProdutos{
+
+    @include tituloPaginas($tituloProdutos);
+
+    @include breakpoint($celular){
+      font-size: 28px;
+      text-align: center;
+    }
+    @include make-xs-column(12);
+    @include make-sm-column(12);
+    @include make-md-column(12);
+  }
+
+  .divisorProdutoAmendoin{
+    display: block;
+    margin: 0 0 50px 0;
+
+    @include breakpoint($celular){
+      margin: 0;
+    }
+
+    .produtoAmendoim{
+      @include make-xs-column(12);
+      @include make-sm-column(6);
+      @include make-md-column(6);
+      &:nth-child(2){
+        float: right;
+        @include breakpoint($paisagem){
+          float: none;
+          height: 220px;
+          margin: 0 auto;
+          text-align: center;
+        }
+        @include breakpoint($celular){
+          text-align: left;
+          padding: 0 10px;
+        }
+        @include breakpoint($iphone5){
+          height: 180px;
+        }
+
+      }
+
+      @include breakpoint($paisagem){
+        float: none;
+        height: 220px;
+        margin: 0 auto;
+        text-align: center;
+      }
+      @include breakpoint($celular){
+        text-align: left;
+        padding: 0 10px;
+      }
+      @include breakpoint($iphone5){
+          height: 180px;
+        }
+
+      .fotoProduto{
+        float: left;
+        margin: 0 20px 0 0;
+        width: 200px;
+        @include breakpoint($tablet){
+          width: 150px;
+        }
+        @include breakpoint($iphone5){
+          width: 100px;
+        }
+      }
+      .tituloProduto{
+        color: $tituloProdutos;
+        display: inline-block;
+        font:{
+          family: 'Bulletto_Killa';
+          size: 28px;
+        }
+        margin: 0;
+        @include breakpoint($tablet){
+          font-size: 21px;
+        }
+        @include breakpoint($iphone5){
+          font-size: 18px;
+        }
+      }
+
+      .mascaraPesagemProduto{
+        display: inline-block;
+        width: 8%;
+        @include breakpoint($tablet){
+          width: 50%;
+        }
+        @include breakpoint($paisagem){
+          width: 40px;
+        }
+        .pesagemProduto{
+          background-color: $BGPesagemProduto;
+          border-radius: 5px;
+          color: #a2262a;
+          float: right;
+          margin: 0;          
+          padding: 3px;
+          @include breakpoint($tablet){
+            float: left;
+          }
+          @include breakpoint($paisagem){
+            float: none;
+          }
+        }
+      }   
+      .descricaoProduto{
+        display: inline-block;
+        width: 43%;
+        @include breakpoint($celular){
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+  .divisorProdutoDestaque{
+    display: block;
+    margin: 0 0 50px 0;
+    @include breakpoint($paisagem){
+      margin: 0px 0 20px 0;
+    }
+
+    .tituloProdutoDestaque{
+      @include tituloPaginas($tituloProdutos);
+      margin: 20px 0 0;
+      text-align: center;
+
+      @include breakpoint($celular){
+        font-size:28px;
+      }
+    }
+
+    .mascaraPesagemProdutoDestaque{
+      display: inline-block;
+      width: 100%;
+      
+      .pesagemProdutoDestaque{
+        background-color: $BGPesagemProduto;
+        border-radius: 5px;
+        color: #a2262a;
+        font-size: 20px;
+        margin: 0 auto;         
+        padding: 3px;
+        text-align: center;
+        width: 5%;
+        @include breakpoint($tablet){
+          width: 7%;
+        }
+        @include breakpoint($paisagem){
+          width: 10%;
+        }
+        @include breakpoint($celular){
+          font-size: 16px;
+        }
+      }
+    }
+
+    .descricaoProdutoDestaque{
+      margin: 20px auto;
+      text-align: center;
+      width: 70%;
+      b{
+        color: #a2262a
+      }
+      @include breakpoint($celular){
+        width: 90%;
+      }
+    }
+
+    .fotoProdutoDestaque{
+      display: block;
+      margin: 40px auto 0;
+      @include breakpoint($paisagem){
+        width: 200px;
+      }
+    }
+
+    .fotoProdutoDestaqueTriplo{
+      display: block;
+      margin: 40px auto 0;
+      max-width: 100%;
+      @include breakpoint($paisagem){
+        width: 450px;
+      }
+      @include breakpoint($celular){
+        max-width: 100%;
+      }
+    }
+  }
+
+  
+}

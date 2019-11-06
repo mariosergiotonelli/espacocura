@@ -1,0 +1,50 @@
+@mixin transition($args...) {
+	-webkit-transition: $args;
+	-moz-transition: $args;
+	-ms-transition: $args;
+	-o-transition: $args;
+	transition: $args;
+}
+
+@mixin transformMenu($args...) {
+	-webkit-transform: $args;
+	-moz-transform: $args;
+	-ms-transform: $args;
+	-o-transform: $args;
+	transform: $args;
+}
+
+@mixin tituloPaginas($args...){
+	color: $args;
+	font:{
+		family: $font-Bulleto;
+		size: 45px;
+		weight: normal;
+	}
+	margin: 20px 0 50px;
+	padding: 0;
+	text-align: left;
+	@include breakpoint($paisagem){
+		margin: 20px 0px;
+		padding: 0px 10px 0px;
+	}
+}
+
+@mixin redesHeader(){
+	display: inline-block;
+	background-position-y: -20px;
+	background-repeat: no-repeat;
+	height: 20px;
+	margin-top: 27px;
+	text-indent: -9999px;
+	text-align: center;
+	width: 20px;
+	transition: all 0.3s ease;
+	&:hover{
+		background-position-y: 0px;
+	}
+	@include breakpoint($note){
+		background-position-y: 0px;
+		margin-top: 0px;
+	}
+}

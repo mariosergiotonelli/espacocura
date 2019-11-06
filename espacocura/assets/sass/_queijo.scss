@@ -1,0 +1,149 @@
+.mainQueijo{
+  background-color: $bgPagQueijo;
+
+  .bannerQueijo{
+    position: relative;
+    .fotoQueijo{
+      height: auto;
+      max-width: 100%;
+    }
+  }
+
+  .queijo{
+    background-color: $bgQueijo;
+    padding: 30px 0;
+
+    .txtQueijo{
+      float: left;
+      padding: 20px 0 0;
+      width: 40%;
+
+      @include breakpoint($tablet){
+        float: none;
+        padding: 10px;
+        width: 100%;
+      }
+
+      .tituloQueijo{
+        background: #fff12c;
+        display: block;
+        font-family: $font-Bulleto;
+        font-weight: 400;
+        margin: 0;
+        padding: 10px 90px 10px 10px;
+        text-align: right;
+        width: 100%;
+
+        @include breakpoint($tablet){
+          padding: 10px;
+          text-align: center;
+        }
+      }
+
+      .infoQueijo{
+        color:#fff;
+        font-weight: normal;
+        float: right;
+        width: 65%;
+
+        @include breakpoint($tablet){
+          float: none;
+          padding: 10px;
+          text-align: center;
+          width: 100%;
+        }
+      }
+    }
+
+    .imgQueijo{
+      display: inline-block;
+      padding: 0px 60px;
+      text-align: right;  
+      width: 50%; 
+
+      @include breakpoint($tablet){
+        text-align: center;
+        width: 100%;
+      }
+
+      img{
+        max-width: 100%;
+      }
+    }
+  }
+
+  .clientesCinemas{
+    background-color: $bgPagQueijo;
+    padding: 30px 0;
+    .tituloClientesCinemas{
+      text-align: center;
+    }
+
+    .parteUm{
+      @include make-xs-column(12);
+      @include make-sm-column(12);
+      @include make-md-column(6);
+      .nomesCinemas{
+        text-align: center;
+      }
+    }
+
+    .parteDois{
+      @include make-xs-column(12);
+      @include make-sm-column(12);
+      @include make-md-column(6);
+      .nomesCinemas{
+        text-align: center;
+      }
+    }
+  }
+
+  .PDV{
+    background-color: $bgPDV;
+    padding: 30px 0;
+
+    .PDV02{   
+
+      @include make-xs-column(12);
+      @include make-sm-column(12);
+      @include make-md-column(12);
+
+      .casaPDV{
+        margin: 0 auto;
+        text-align: center;
+      }
+
+      .txtPDV{
+        background-color: #000932;
+        padding: 30px;
+        margin: 0 auto;
+        width: 100%;
+        @include breakpoint($tablet){
+          padding: 10px;
+        }
+        .tituloPDV02{
+          color: #fff12c;
+          font-weight: bold;
+          text-align: center;
+          @include breakpoint($tablet){
+            font-size: 26px;
+            margin: 10px 0;
+          }     
+        }
+
+        .infoPDV02{
+          color: #fff12c;
+          text-align: center;           
+        }
+      } 
+    }
+  }
+
+  .maps{
+    background-color: $bgPDV;
+    padding: 10px 0;
+    @include breakpoint($celular){
+      padding: 10px;
+    }
+  }
+}
