@@ -24,7 +24,7 @@
   </section>
 
   <section class="queijo">
-    
+
     <div class="txtQueijo">
       <h1 class="tituloQueijo">Queijo Crocante</h1>
       <p class="infoQueijo">Os cubinhos de queijo parmesão foram criados para dar ainda mais sabor aos momentos de lazer e diversão. Irresistível em sua crocancia, sendo 100% queijo parmesão.</p>
@@ -56,7 +56,7 @@
 
           <div>
             <a href="<?php echo PW_URL ?>produtos"><img src="<?php echo PW_URL_THEME ?>/assets/img/queijo_03.png" alt="Produtos Friz"></a>
-          </div>  
+          </div>
 
         </div>
 
@@ -79,7 +79,7 @@
   </section>
 
   <section class="historia">
-    
+
     <div class="txtHistoria">
       <h1 class="tituloHistoria">Quem somos</h1>
       <p class="infoHistoria">Fundada em 2009, a FRITZ@ iniciou seu trabalho com a produção de uma linha completa de amendoins junto da distribuição para bares, padarias, mercearias e mini mercados no Vale do Paraíba.
@@ -87,8 +87,8 @@
           <a href="<?php echo PW_URL ?>historia">Veja mais</a>
         </button>
       </p>
-      
-    </div> 
+
+    </div>
 
     <figure class="imgHistoria">
       <img src="<?php echo PW_URL_THEME ?>/assets/img/historia2.png" alt="História">
@@ -114,13 +114,13 @@
   <section class="maps">
     <div class="container">
       <div class="row">
-        <div class="maps">  
+        <div class="maps">
           <iframe src="https://www.google.com/maps/d/embed?mid=1z4EAzCI79-Co1MO5PeCaHlu_90n4MAr6" width="100%" height="400"></iframe>
         </div>
       </div>
     </div>
   </section>
-  
+
 </main>
 
 <?php get_footer(); ?>

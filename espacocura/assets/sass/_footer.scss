@@ -18,12 +18,12 @@
         }
         .logo{
           background: url("../img/logo.png");
-          background-repeat: no-repeat;     
+          background-repeat: no-repeat;
           display: block;
           float: left;
-          height: 70px;                 
-          text-indent:-9999px;  
-          text-align: center;     
+          height: 70px;
+          text-indent:-9999px;
+          text-align: center;
           width: 215px;
           @include breakpoint($tablet){
             float: none;
@@ -72,7 +72,7 @@
           margin: 0px;
           text-transform: uppercase;
         }
-      }     
+      }
     }
 
     .contatoRodape{
@@ -120,7 +120,7 @@
         margin: 10px auto;
         padding: 6px 12px;
         outline: none;
-        text-transform: uppercase;          
+        text-transform: uppercase;
         a{
           color: #FFF12C;
         }
