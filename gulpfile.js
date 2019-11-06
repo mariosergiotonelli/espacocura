@@ -7,10 +7,10 @@ var reload = browserSync.reload;
 
 
 // Sass caminho
-var scssPasta = ['fritzalimentos/assets/sass/**/*.scss','fritzalimentos/assets/sass/*.scss'];
+var scssPasta = ['espacocura/assets/sass/**/*.scss','espacocura/assets/sass/*.scss'];
 
 // CSS destino 
-var cssDest = 'fritzalimentos/assets/css/';
+var cssDest = 'espacocura/assets/css/';
 
 // Options for development
 var sassDevOptions = {
@@ -42,17 +42,17 @@ gulp.task('sassprod', function() {
 gulp.task('browser-sync', function() {
   var files = [
   //CSS
-    './fritzalimentos/style.css',
-    './fritzalimentos/assets/css/**/*.css',
-    './fritzalimentos/assets/dist/*.css',
+    './espacocura/style.css',
+    './espacocura/assets/css/**/*.css',
+    './espacocura/assets/dist/*.css',
 
   //PHP
-    './fritzalimentos**/*.php',
-    './fritzalimentos/**/*.php',
+    './espacocura**/*.php',
+    './espacocura/**/*.php',
   //JS
-    './fritzalimentos/assets/dist/*.js',
-    './fritzalimentos/assets/js/*.js',
-    './fritzalimentos/scripts/*.js'
+    './espacocura/assets/dist/*.js',
+    './espacocura/assets/js/*.js',
+    './espacocura/scripts/*.js'
   ];
 
   ////----////
