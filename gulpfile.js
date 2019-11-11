@@ -9,7 +9,7 @@ var reload = browserSync.reload;
 // Sass caminho
 var scssPasta = ['espacocura/assets/sass/**/*.scss','espacocura/assets/sass/*.scss'];
 
-// CSS destino 
+// CSS destino
 var cssDest = 'espacocura/assets/css/';
 
 // Options for development
@@ -58,7 +58,7 @@ gulp.task('browser-sync', function() {
   ////----////
 
   browserSync.init(files, {
-    proxy:"http://localhost/Fritz",
+    proxy:"http://localhost/Espaco-cura",
     watchEvents : ['change', 'add', 'unlink', 'addDir', 'unlinkDir'],
     notify:false
   });

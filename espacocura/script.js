@@ -1,10 +1,10 @@
 var $j = jQuery.noConflict(),
-    url = 'http://localhost/blocos-engenharia/',
-    url_ajax = url + 'wp-admin/admin-ajax.php';
+url = 'http://localhost/blocos-engenharia/',
+url_ajax = url + 'wp-admin/admin-ajax.php';
 
 $j(document).ready(function() {
-    var loading = false;
-    $j( '#get-site-name' ).click( function( e ){
+	var loading = false;
+	$j( '#get-site-name' ).click( function( e ){
 		if ( !loading ) {
 			loading = true;
 			$j.ajax({
@@ -14,11 +14,11 @@ $j(document).ready(function() {
 					action: 'get_site_name'
 				},
 				success: function( site_name ) {
-                    alert( 'O nome do site é: ' +  site_name );
-                    loading = false;
+					alert( 'O nome do site é: ' +  site_name );
+					loading = false;
 				}
 			});
 		}
-        e.preventDefault();
-    });
+		e.preventDefault();
+	});
 });
