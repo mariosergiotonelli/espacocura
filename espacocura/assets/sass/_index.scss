@@ -2,75 +2,41 @@ body{
   font-family: Verdana;
   font-size: 16px;
 
-  .wrapper {
-    height: 100vh;
-    overflow-x: hidden;
-    perspective: 4px;
-    transform-style: preserve-3d;
+  .fadeImage {
+    -webkit-animation: fadein 8s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 8s; /* Firefox < 16 */
+    -ms-animation: fadein 8s; /* Internet Explorer */
+    -o-animation: fadein 8s; /* Opera < 12.1 */
+    animation: fadein 8s;
   }
 
-  .section, .section-principal {
-    position: relative;
-    height: 100vh;
-    min-height: 725px;
-    transform-style: inherit;
+  @keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
   }
 
-  .section::before {
-    content: " ";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
-    background-size: initial;
-    background-repeat: no-repeat;
-    background-position: center center;
-    transform: translateZ(-1px) scale(1);
+  /* Firefox < 16 */
+  @-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
   }
 
-  .section-principal::before {
-    content: " ";
-    position: absolute;
-    top: -100px;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
-    background-size: 35%;
-    background-repeat: no-repeat;
-    background-position: center center;
-    transform: translateZ(-1px) scale(1);
+  /* Safari, Chrome and Opera > 12.1 */
+  @-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
   }
 
-  .text{
-    position: relative;
-    top: 60%;
-    width: 60%;
-    padding: 20px 10px;
-    background-color: rgba(0,0,0,0.4);
-    color: white;
-    text-shadow: 0 0 5px #000;
-    font-size: 16px;
-    text-align: center;
-    margin: 0 auto;
+  /* Internet Explorer */
+  @-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
   }
 
-  .bg1::before {
-    background-image: url('../img/logo_home.png');
-  }
-
-  .bg2::before {
-    background-image: url('../img/yoga.png');
-  }
-
-  .bg3::before {
-    background-image: url('../img/naturopatia.png');
-  }
-
-  .bg4::before {
-    background-image: url('../img/sagrado-feminino.png');
+  /* Opera < 12.1 */
+  @-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
   }
 
   .slick-dots{
@@ -105,7 +71,97 @@ body{
       }
     }
   }
+
   .slick-initialized .slick-slide{
     outline: none;
+  }
+
+  .wrapper {
+    height: 100vh;
+    overflow-x: hidden;
+    perspective: 4px;
+    transform-style: preserve-3d;
+  }
+
+  .section-principal {
+    position: relative;
+    height: 100vh;
+    transform-style: inherit;
+    background-image: url('../img/logo_home.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .yoga{
+    background-color: $cor-yoga;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    &-left{
+      width: 50%;
+      &__simbolo{
+        height: auto;
+        width: 100%;
+        animation-duration: 1s;
+        animation-delay: 3s;
+        animation-iteration-count: 1;
+      }
+    }
+    &-right{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 50%;
+      padding: 0 15px;
+      animation-duration: 1s;
+      animation-delay: 3s;
+      animation-iteration-count: 1;
+    }
+  }
+
+  .naturopatia{
+    background-color: $cor-naturo;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    &-right{
+      width: 50%;
+      &__simbolo{
+        height: auto;
+        width: 100%;
+      }
+    }
+    &-left{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 50%;
+      padding: 0 15px;
+    }
+  }
+
+  .sagrado{
+    background-color: $cor-sagrado;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    &-left{
+      width: 50%;
+      &__simbolo{
+        height: auto;
+        width: 100%;
+      }
+    }
+    &-right{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 50%;
+      padding: 0 15px;
+    }
   }
 }
