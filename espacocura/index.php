@@ -2,8 +2,11 @@
 
 
 <main class="wrapper">
-  <section class="section-principal fadeImage">
-  </section>
+
+  <div class="lateralEsquerda animated fadeInLeft"></div>
+  <div class="lateralDireita animated fadeInRight"></div>
+
+  <section class="section-principal animated fadeIn"></section>
 
   <section class="yoga">
     <div class="yoga-left">

@@ -11,7 +11,7 @@
 <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
 
-<link rel="icon" href="<?php echo PW_URL_THEME; ?>favicon.png" />
+<link rel="icon" href="<?php echo PW_URL_THEME; ?>favicon.ico" />
 
 <?php wp_head(); ?>
 </head>
