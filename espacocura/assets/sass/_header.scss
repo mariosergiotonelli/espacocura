@@ -1,5 +1,4 @@
 .headerEspaco{
-  
 
   .topo{
     .hamburguer {
@@ -25,19 +24,19 @@
     //BARS TRANSITION ON CLICK
     .toggle .bar1 {
       transform: rotate(-45deg) translate(-1px, 2px);
-      background:white;
+      background:$white;
     }
     .toggle .bar2 {
       opacity: 0;
     }
     .toggle .bar3 {
       transform: rotate(45deg) translate(-8px, -9px);
-      background:white;
+      background:$white;
     }
 
     //NAV WITH LINKS
     nav {
-      background:blue;
+      background:linear-gradient($cor-yoga, $cor-naturo, $cor-sagrado);
       opacity:0;
       visibility: hidden;
       position: absolute;
@@ -53,36 +52,38 @@
         margin:0;
         padding:0;
         box-sizing:border-box;
-        padding-top:120px;
         text-align:center;
         list-style:none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         li {
           a {
             display:block;
-            width:100%;
+            width:30%;
             padding:10px 0;
             transition-duration:.6s;
             font-size:22px;
-            color:white;
+            color:$white;
             text-transform:uppercase;
             text-decoration:none;
+            margin: 10px auto;
 
             &:hover {
-              background:white;
+              background:$white;
               cursor:pointer;
-              color:#306db6;
+              color:$black;
+              width:20%;
+              border-radius: 10px;
             }
           }
         }
       }
     }
 
-    //NAV OPENED
     .open {
       visibility: visible;
       opacity:1;
     }
-
   }
-
 }
