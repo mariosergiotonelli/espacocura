@@ -16,7 +16,7 @@
 
 @mixin tituloPaginas($args...){
 	color: $args;
-	font:{
+	font: {
 		family: $font-Bulleto;
 		size: 45px;
 		weight: normal;
@@ -39,6 +39,34 @@
 	text-indent: -9999px;
 	text-align: center;
 	width: 20px;
+	transition: all 0.3s ease;
+	&:hover{
+		background-position-y: 0px;
+	}
+	@include breakpoint($note){
+		background-position-y: 0px;
+		margin-top: 0px;
+	}
+}
+
+@mixin txtEspaco($font: $fontTexto, $fontWeight: 400, $fontSize: 14px, $color: $white, $lh: 18px, $textAlign: left, $textTransform: initial) {
+  color: $color;
+  font-family: $font;
+  font-size: $fontSize;
+  font-style: normal;
+  font-weight: $fontWeight;
+  line-height: $lh;
+  text-align: $textAlign;
+  text-transform: $textTransform;
+}
+
+@mixin redesHeader(){
+	background-position-y: -40px;
+	background-repeat: no-repeat;
+	height: 40px;
+	text-indent: -9999px;
+	text-align: center;
+	width: 40px;
 	transition: all 0.3s ease;
 	&:hover{
 		background-position-y: 0px;

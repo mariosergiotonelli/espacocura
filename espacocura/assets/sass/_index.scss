@@ -1,6 +1,4 @@
 body{
-  font-family: Verdana;
-  font-size: 16px;
 
   .slick-dots{
     text-align: center;
@@ -34,126 +32,159 @@ body{
       }
     }
   }
-
+  
   .slick-initialized .slick-slide{
     outline: none;
   }
 
-  .wrapper {
+  .mainEspaco {
     height: 100vh;
     overflow-x: hidden;
     perspective: 4px;
     transform-style: preserve-3d;
-  }
 
-  .lateralEsquerda{
-    background-image: url(../img/mandala_latera-direita.png);
-    background-position: right center;
-    background-repeat: no-repeat;
-    position: absolute;
-    height: 100vh;
-    width: 100%;
-    left: 9%;
-    animation-duration: 2s;
-    animation-delay: 0.5s;
-    animation-iteration-count: 1;
-  }
+    .lateralEsquerda{
+      background-image: url(../img/mandala_latera-direita.png);
+      background-position: right center;
+      background-repeat: no-repeat;
+      position: absolute;
+      height: 100vh;
+      width: 100%;
+      left: 9%;
+      animation-duration: 2s;
+      animation-delay: 0.5s;
+      animation-iteration-count: 1;
+    }
 
-  .lateralDireita{
-    background-image: url(../img/mandala_latera-esquerda.png);
-    background-position: left center;
-    background-repeat: no-repeat;
-    position: absolute;
-    height: 100vh;
-    width: 100%;
-    right: 10%;
-    animation-duration: 2s;
-    animation-delay: 0.5s;
-    animation-iteration-count: 1;
-  }
+    .lateralDireita{
+      background-image: url(../img/mandala_latera-esquerda.png);
+      background-position: left center;
+      background-repeat: no-repeat;
+      position: absolute;
+      height: 100vh;
+      width: 100%;
+      right: 10%;
+      animation-duration: 2s;
+      animation-delay: 0.5s;
+      animation-iteration-count: 1;
+    }
 
-  .section-principal {
-    position: relative;
-    height: 100vh;
-    transform-style: inherit;
-    background-image: url('../img/logo_home.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    animation-duration: 3s;
-    animation-delay: 2s;
-    animation-iteration-count: 1;
-  }
+    .section-principal {
+      position: relative;
+      height: 100vh;
+      transform-style: inherit;
+      background-image: url('../img/logo_home.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      animation-duration: 3s;
+      animation-delay: 2s;
+      animation-iteration-count: 1;
+    }
 
-  .yoga{
-    background-color: $yoga;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    &-left{
-      width: 50%;
-      &__simbolo{
-        height: auto;
-        width: 100%;
+    .yoga{
+      background-color: $yoga;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      &-left{
+        width: 50%;
+        padding: 20px 0;
+        text-align: center;
+        &__simbolo{
+          animation-duration: 1s;
+          animation-delay: 3s;
+          animation-iteration-count: 1;
+        }
+      }
+      &-right{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        padding: 0 15px;
         animation-duration: 1s;
         animation-delay: 3s;
         animation-iteration-count: 1;
+        &__titulo{
+          @include txtEspaco($fontPilares, 400, 168px, $white, 1.5, left, initial);
+          margin: -90px 0 50px;
+        }
+        &__texto{
+          @include txtEspaco($fontTexto, 400, 16px, $white, 16px, left, initial)
+        }
       }
     }
-    &-right{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      width: 50%;
-      padding: 0 15px;
-      animation-duration: 1s;
-      animation-delay: 3s;
-      animation-iteration-count: 1;
-    }
-  }
 
-  .naturopatia{
-    background-color: $naturo;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    &-right{
-      width: 50%;
-      &__simbolo{
-        height: auto;
-        width: 100%;
+    .naturopatia{
+      background-color: $naturo;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      &-left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        padding: 0 15px;
+        animation-duration: 1s;
+        animation-delay: 3s;
+        animation-iteration-count: 1;
+        &__titulo{
+          @include txtEspaco($fontPilares, 400, 168px, $white, 1.5, left, initial);
+          margin: -90px 0 50px;
+        }
+        &__texto{
+          @include txtEspaco($fontTexto, 400, 16px, $white, 16px, left, initial)
+        }
+      }
+      &-right{
+        width: 50%;
+        padding: 20px 0;
+        text-align: center;
+        &__simbolo{
+          animation-duration: 1s;
+          animation-delay: 3s;
+          animation-iteration-count: 1;
+        }
       }
     }
-    &-left{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      width: 50%;
-      padding: 0 15px;
-    }
-  }
 
-  .sagrado{
-    background-color: $sagrado;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    &-left{
-      width: 50%;
-      &__simbolo{
-        height: auto;
-        width: 100%;
-      }
-    }
-    &-right{
+    .sagrado{
+      background-color: $sagrado;
       display: flex;
-      flex-direction: column;
       justify-content: center;
-      align-items: center;
-      width: 50%;
-      padding: 0 15px;
+      align-content: center;
+      &-left{
+        width: 50%;
+        padding: 20px 0;
+        text-align: center;
+        &__simbolo{
+          animation-duration: 1s;
+          animation-delay: 3s;
+          animation-iteration-count: 1;
+        }
+      }
+      &-right{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        padding: 0 15px;
+        animation-duration: 1s;
+        animation-delay: 3s;
+        animation-iteration-count: 1;
+        &__titulo{
+          @include txtEspaco($fontPilares, 400, 168px, $white, 1, left, initial);
+          margin: -20px 0 50px;
+        }
+        &__texto{
+          @include txtEspaco($fontTexto, 400, 16px, $white, 16px, left, initial)
+        }
+      }
     }
   }
 }
