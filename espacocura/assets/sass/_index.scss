@@ -32,7 +32,7 @@ body{
       }
     }
   }
-  
+
   .slick-initialized .slick-slide{
     outline: none;
   }
@@ -44,7 +44,7 @@ body{
     transform-style: preserve-3d;
 
     .lateralEsquerda{
-      background-image: url(../img/mandala_latera-direita.png);
+      background-image: url('../img/mandala_latera-direita.png');
       background-position: right center;
       background-repeat: no-repeat;
       position: absolute;
@@ -54,10 +54,16 @@ body{
       animation-duration: 2s;
       animation-delay: 0.5s;
       animation-iteration-count: 1;
+      @include breakpoint($note){
+        left: 20%;
+      }
+      @include breakpoint($paisagem){
+        background: none;
+      }
     }
 
     .lateralDireita{
-      background-image: url(../img/mandala_latera-esquerda.png);
+      background-image: url('../img/mandala_latera-esquerda.png');
       background-position: left center;
       background-repeat: no-repeat;
       position: absolute;
@@ -67,6 +73,12 @@ body{
       animation-duration: 2s;
       animation-delay: 0.5s;
       animation-iteration-count: 1;
+      @include breakpoint($note){
+        right: 20%;
+      }
+      @include breakpoint($paisagem){
+        background: none;
+      }
     }
 
     .section-principal {
@@ -80,6 +92,10 @@ body{
       animation-duration: 3s;
       animation-delay: 2s;
       animation-iteration-count: 1;
+      @include breakpoint($paisagem){
+        animation-duration: 4s;
+        animation-delay: 0.5s;
+      }
     }
 
     .yoga{
@@ -87,14 +103,26 @@ body{
       display: flex;
       justify-content: center;
       align-content: center;
+      @include breakpoint($paisagem){
+        position: relative;
+        height: 100%;
+      }
       &-left{
         width: 50%;
         padding: 20px 0;
         text-align: center;
+        @include breakpoint($paisagem){
+          width: 100%;
+          position: absolute;
+          opacity: 0.3;
+        }
         &__simbolo{
           animation-duration: 1s;
           animation-delay: 3s;
           animation-iteration-count: 1;
+          @include breakpoint($paisagem){
+            max-width: 100%;
+          }
         }
       }
       &-right{
@@ -107,12 +135,23 @@ body{
         animation-duration: 1s;
         animation-delay: 3s;
         animation-iteration-count: 1;
+        @include breakpoint($paisagem){
+          width: 100%;
+          height: 100%;
+        }
         &__titulo{
           @include txtEspaco($fontPilares, 400, 168px, $white, 1.5, left, initial);
           margin: -90px 0 50px;
+          @include breakpoint($paisagem){
+            margin: 0px 0 50px;
+            font-size: 100px;
+          }
         }
         &__texto{
-          @include txtEspaco($fontTexto, 400, 16px, $white, 16px, left, initial)
+          @include txtEspaco($fontTexto, 400, 16px, $white, 16px, left, initial);
+          @include breakpoint($paisagem){
+            font-size: 14px;
+          }
         }
       }
     }
@@ -122,6 +161,10 @@ body{
       display: flex;
       justify-content: center;
       align-content: center;
+      @include breakpoint($paisagem){
+        position: relative;
+        height: 100%;
+      }
       &-left{
         display: flex;
         flex-direction: column;
@@ -132,22 +175,41 @@ body{
         animation-duration: 1s;
         animation-delay: 3s;
         animation-iteration-count: 1;
+        @include breakpoint($paisagem){
+          width: 100%;
+          height: 100%;
+        }
         &__titulo{
           @include txtEspaco($fontPilares, 400, 168px, $white, 1.5, left, initial);
           margin: -90px 0 50px;
+          @include breakpoint($paisagem){
+            margin: 0px 0 50px;
+            font-size: 100px;
+          }
         }
         &__texto{
-          @include txtEspaco($fontTexto, 400, 16px, $white, 16px, left, initial)
+          @include txtEspaco($fontTexto, 400, 16px, $white, 16px, left, initial);
+          @include breakpoint($paisagem){
+            font-size: 14px;
+          }
         }
       }
       &-right{
         width: 50%;
         padding: 20px 0;
         text-align: center;
+        @include breakpoint($paisagem){
+          width: 100%;
+          position: absolute;
+          opacity: 0.3;
+        }
         &__simbolo{
           animation-duration: 1s;
           animation-delay: 3s;
           animation-iteration-count: 1;
+          @include breakpoint($paisagem){
+            max-width: 100%;
+          }
         }
       }
     }
@@ -157,14 +219,26 @@ body{
       display: flex;
       justify-content: center;
       align-content: center;
+      @include breakpoint($paisagem){
+        position: relative;
+        height: 100%;
+      }
       &-left{
         width: 50%;
         padding: 20px 0;
         text-align: center;
+        @include breakpoint($paisagem){
+          width: 100%;
+          position: absolute;
+          opacity: 0.3;
+        }
         &__simbolo{
           animation-duration: 1s;
           animation-delay: 3s;
           animation-iteration-count: 1;
+          @include breakpoint($paisagem){
+            max-width: 100%;
+          }
         }
       }
       &-right{
@@ -177,12 +251,23 @@ body{
         animation-duration: 1s;
         animation-delay: 3s;
         animation-iteration-count: 1;
+        @include breakpoint($paisagem){
+          width: 100%;
+          height: 100%;
+        }
         &__titulo{
-          @include txtEspaco($fontPilares, 400, 168px, $white, 1, left, initial);
+          @include txtEspaco($fontPilares, 400, 168px, $white, 1, center, initial);
           margin: -20px 0 50px;
+          @include breakpoint($paisagem){
+            margin: 20px 0 50px;
+            font-size: 100px;
+          }
         }
         &__texto{
-          @include txtEspaco($fontTexto, 400, 16px, $white, 16px, left, initial)
+          @include txtEspaco($fontTexto, 400, 16px, $white, 16px, left, initial);
+          @include breakpoint($paisagem){
+            font-size: 14px;
+          }
         }
       }
     }

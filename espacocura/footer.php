@@ -16,11 +16,13 @@
 
           <div class="menuRodape">
             <ul>
-              <li><a href="<?php echo PW_URL ?>queijo" class="menuRodapeLink">queijo crocante</a></li>
-              <li><a href="<?php echo PW_URL ?>produtos" class="menuRodapeLink">produtos</a></li>
-              <li><a href="<?php echo PW_URL ?>historia" class="menuRodapeLink">história</a></li>
-              <li><a href="<?php echo PW_URL ?>#PDV" class="menuRodapeLink">pontos de vendas</a></li>
-              <li><a href="#contatoRodape" class="menuRodapeLink">contato</a></li>
+              <li><a href="<?php echo PW_URL ?>#" class="menuRodapeLink">Home</a></li>
+              <li><a href="<?php echo PW_URL ?>espaco" class="menuRodapeLink">O Espaço</a></li>
+              <li><a href="<?php echo PW_URL ?>terapias" class="menuRodapeLink">Terapias</a></li>
+              <li><a href="<?php echo PW_URL ?>atividades" class="menuRodapeLink">Atividades</a></li>
+              <li><a href="<?php echo PW_URL ?>quem-somos" class="menuRodapeLink">Quem somos</a></li>
+              <li><a href="<?php echo PW_URL ?>parcerias" class="menuRodapeLink">Parceiras</a></li>
+              <li><a href="<?php echo PW_URL ?>contato" class="menuRodapeLink">Contato</a></li>
             </ul>
           </div>
 
