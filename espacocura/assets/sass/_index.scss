@@ -1,42 +1,4 @@
 body{
-
-  .slick-dots{
-    text-align: center;
-    line-height: 0;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    left: 0;
-    li{
-      display: inline-block;
-      line-height: 0;
-      padding: 8px 4px;
-      button{
-        font-size: 0;
-        border: 0;
-        width: 12px;
-        height: 12px;
-        background: #231f20;
-        border-radius: 50%;
-        padding: 0;
-        outline: none
-      }
-    }
-    .slick-active{
-      button{
-        background: #fada00;
-        border: 2px solid #000;
-        &:focus{
-          outline: none
-        }
-      }
-    }
-  }
-
-  .slick-initialized .slick-slide{
-    outline: none;
-  }
-
   .mainEspaco {
     height: 100vh;
     overflow-x: hidden;
