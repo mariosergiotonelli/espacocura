@@ -1,9 +1,6 @@
 .mainPageEspaco{
   &-topo{
-    background: black;
-    height: 70px;
-    width: 100%;
-    opacity: 0.4;
+    @extend .mainPageQuemSomos-topo;
   }
   &-titulo{
     @include txtEspaco($fontTitulo, 400, 48px, $black, 40px, center, initial);

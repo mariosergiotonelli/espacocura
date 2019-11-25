@@ -3,7 +3,12 @@
     background: black;
     height: 70px;
     width: 100%;
-    opacity: 0.4;
+    opacity: 0.5;
+    background-image: url('../img/topo-mandala.png');
+    margin-bottom: 50px;
+    @include breakpoint($celular){
+      display: none;
+    }
   }
   &-titulo{
     @include txtEspaco($fontTitulo, 400, 48px, $black, 40px, center, initial);

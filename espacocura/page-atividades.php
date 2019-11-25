@@ -6,40 +6,64 @@ get_header();
 
 ?>
 
-<main class="mainPageEspaco">
+<main class="mainPageAtividades">
 
-  <div class="mainPageEspaco-topo"></div>
+  <div class="mainPageAtividades-topo"></div>
 
   <div class="container">
     <div class="row">
-      <h1 class="mainPageEspaco-titulo">Espaço Cura</h1>
-      <h4 class="mainPageEspaco-subtitulo">Mussum Ipsum, cacilds vidis litro abertis. Quem num gosta di mé, boa gentis num é. Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Si num tem leite então bota uma pinga aí cumpadi! Manduma pindureta quium dia nois paga.</h4>
+      <h1 class="mainPageAtividades-titulo">Atividades</h1>
+      <h4 class="mainPageAtividades-subtitulo">Mussum Ipsum, cacilds vidis litro abertis. Quem num gosta di mé, boa gentis num é. Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Si num tem leite então bota uma pinga aí cumpadi! Manduma pindureta quium dia nois paga.</h4>
     </div>
 
     <div class="row">
-      <div class="mainPageEspaco-content">
-        <div class="mainPageEspaco-content__servicos">
-          <div class="mainPageEspaco-content__servicos-img"></div>
-          <div class="mainPageEspaco-content__servicos-titulo">Denise de Cássia</div>
-          <div class="mainPageEspaco-content__servicos-texto">Mussum Ipsum, cacilds vidis litro abertis. Quem num gosta di mé, boa gentis num é. Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Si num tem leite então bota uma pinga aí cumpadi! Manduma pindureta quium dia nois paga.</div>
+      <div class="mainPageAtividades-content">
+
+        <div class="mainPageAtividades-content-atividades">
+          <div class="mainPageAtividades-content-atividades__left">
+            <div class="mainPageAtividades-content-atividades__left-titulo">Titulo Atividades</div>
+            <p class="mainPageAtividades-content-atividades__left-texto">Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl. Delegadis gente finis, bibendum egestas augue arcu ut est. Manduma pindureta quium dia nois paga. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.</p>
+          </div>
+          <div class="mainPageAtividades-content-atividades__right">
+            <img class="mainPageAtividades-content-atividades__right-img" src="<?php echo PW_URL_THEME ?>/assets/img/yoga.png" alt="Foto Terapia">
+          </div>
         </div>
-        <div class="mainPageEspaco-content__servicos">
-          <div class="mainPageEspaco-content__servicos-img"></div>
-          <div class="mainPageEspaco-content__servicos-titulo">Raisa Covre</div>
-          <div class="mainPageEspaco-content__servicos-texto">Mussum Ipsum, cacilds vidis litro abertis. Quem num gosta di mé, boa gentis num é. Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. S</div>
+
+        <div class="mainPageAtividades-content-atividades">
+          <div class="mainPageAtividades-content-atividades__right">
+            <img class="mainPageAtividades-content-atividades__right-img" src="<?php echo PW_URL_THEME ?>/assets/img/yoga.png" alt="Foto Terapia">
+          </div>
+          <div class="mainPageAtividades-content-atividades__left">
+            <div class="mainPageAtividades-content-atividades__left-titulo">Titulo Atividades</div>
+            <p class="mainPageAtividades-content-atividades__left-texto">Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl. Delegadis gente finis, bibendum egestas augue arcu ut est. Manduma pindureta quium dia nois paga. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.</p>
+          </div>
         </div>
-        <div class="mainPageEspaco-content__servicos">
-          <div class="mainPageEspaco-content__servicos-img"></div>
-          <div class="mainPageEspaco-content__servicos-titulo">Raquel Amaral</div>
-          <div class="mainPageEspaco-content__servicos-texto">Mussum Ipsum, cacilds vidis litro abertis. Quem num gosta di mé, boa gentis num é. Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Si num tem leite então bota uma pinga aí cumpadi.</div>
+
+        <div class="mainPageAtividades-content-atividades">
+          <div class="mainPageAtividades-content-atividades__left">
+            <div class="mainPageAtividades-content-atividades__left-titulo">Titulo Atividades</div>
+            <p class="mainPageAtividades-content-atividades__left-texto">Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl. Delegadis gente finis, bibendum egestas augue arcu ut est. Manduma pindureta quium dia nois paga. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.</p>
+          </div>
+          <div class="mainPageAtividades-content-atividades__right">
+            <img class="mainPageAtividades-content-atividades__right-img" src="<?php echo PW_URL_THEME ?>/assets/img/yoga.png" alt="Foto Terapia">
+          </div>
         </div>
+
+        <div class="mainPageAtividades-content-atividades">
+          <div class="mainPageAtividades-content-atividades__right">
+            <img class="mainPageAtividades-content-atividades__right-img" src="<?php echo PW_URL_THEME ?>/assets/img/yoga.png" alt="Foto Terapia">
+          </div>
+          <div class="mainPageAtividades-content-atividades__left">
+            <div class="mainPageAtividades-content-atividades__left-titulo">Titulo Atividades</div>
+            <p class="mainPageAtividades-content-atividades__left-texto">Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl. Delegadis gente finis, bibendum egestas augue arcu ut est. Manduma pindureta quium dia nois paga. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.</p>
+          </div>
+        </div>
+
       </div>
     </div>
   </div>
 
-  <div class="mainPageEspaco-bottom"></div>
-
-
+  <div class="mainPageAtividades-bottom"></div>
 
 </main>
 
