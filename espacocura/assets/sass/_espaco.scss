@@ -1,36 +1,35 @@
 .mainPageEspaco{
   &-topo{
     @extend .mainPageQuemSomos-topo;
+    margin-bottom: 0 !important;
   }
-  &-titulo{
-    @include txtEspaco($fontTitulo, 400, 48px, $black, 40px, center, initial);
-  }
-  &-subtitulo{
-    @include txtEspaco($fontTexto, 400, 21px, $black, 26px, center, initial);
+  &-imgHeader{
+    &__desktop{
+      height: auto;
+      width: 100%;
+      @include breakpoint($celular){
+        display: none
+      }
+    }
+    &__mobile{
+      display: none;
+      @include breakpoint($celular){
+        display: block;
+        height: auto;
+        width: 100%;
+      }
+    }
   }
   &-content{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     margin: 50px 0 0;
-    &__servicos{
-      align-items: center;
-      display: flex;
-      flex-direction: column;
-      width: 300px;
-      &-titulo{
-        @include txtEspaco($fontTitulo, 400, 18px, $black, 20px, center, initial);
-        margin: 20px 0 0;
-      }
-      &-img{
-        background: black;
-        height: 250px;
-        width: 250px;
-        border-radius: 50%;
-      }
-      &-texto{
-        @include txtEspaco($fontTexto, 400, 16px, $black, 18px, center, initial);
-        margin: 10px 0 0;
+    @include breakpoint($paisagem){
+      margin: 50px auto 0;
+    }
+    &__texto{
+      @include txtEspaco($fontTexto, 400, 16px, $black, 18px, left, initial);
+      margin: 10px 0 0;
+      @include breakpoint($paisagem){
+        text-align: center;
       }
     }
   }
