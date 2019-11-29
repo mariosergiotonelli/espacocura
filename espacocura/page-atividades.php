@@ -21,7 +21,7 @@ get_header();
 
         <div class="mainPageAtividades-content-atividades">
           <div class="mainPageAtividades-content-atividades__left">
-            <div class="mainPageAtividades-content-atividades__left-titulo">Titulo Atividades</div>
+            <div class="mainPageAtividades-content-atividades__left-titulo">Arteterapia</div>
             <p class="mainPageAtividades-content-atividades__left-texto">Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl. Delegadis gente finis, bibendum egestas augue arcu ut est. Manduma pindureta quium dia nois paga. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.</p>
           </div>
           <div class="mainPageAtividades-content-atividades__right">
