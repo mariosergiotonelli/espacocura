@@ -30,8 +30,8 @@
       <ul>
         <li><a href="<?php echo PW_URL ?>#">Home</a></li>
         <li><a href="<?php echo PW_URL ?>espaco">O Espaço</a></li>
-        <li><a href="<?php echo PW_URL ?>terapias">Terapias</a></li>
-        <li><a href="<?php echo PW_URL ?>atividades">Atividades</a></li>
+        <li><a href="<?php echo PW_URL ?>terapias">Terapias e Atividades</a></li>
+        <!-- <li><a href="<?php echo PW_URL ?>atividades">Atividades</a></li> -->
         <li><a href="<?php echo PW_URL ?>quem-somos">Quem Somos</a></li>
         <li><a href="<?php echo PW_URL ?>parcerias">Parcerias</a></li>
         <li><a href="<?php echo PW_URL ?>contato">Contato</a></li>

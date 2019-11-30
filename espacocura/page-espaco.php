@@ -18,16 +18,10 @@ get_header();
     <div class="row">
       <div class="mainPageEspaco-content">
         <div class="mainPageEspaco-content__texto">
-          Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu sit. Vide electram sadipscing et per. Casamentiss faiz malandris se pirulitá. Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose. Quem num gosta di mé, boa gentis num é.
+        O Espaço Cura nasceu a partir do encontro de três sonhadoras: Denise de Cássia, Raisa Covre e Raquel Amaral. Ele traz toda a diversidade dessa parceria, além de todo amor envolvido nos planos e sonhos de nossas caminhadas. Nós oferecemos diversas atividades e técnicas terapêuticas com o objetivo de acolher cada ser em todos os sentidos. Esse é nosso slogan e nosso propósito: o acolhimento em todos os sentidos.
         </div>
         <div class="mainPageEspaco-content__texto">
-          Quem manda na minha terra sou euzis! Vehicula non. Ut sed ex eros. Vivamus sit amet nibh non tellus tristique interdum. Per aumento de cachacis, eu reclamis. Viva Forevis aptent taciti sociosqu ad litora torquent.
-        </div>
-        <div class="mainPageEspaco-content__texto">
-          Si num tem leite então bota uma pinga aí cumpadi! Delegadis gente finis, bibendum egestas augue arcu ut est. Interagi no mé, cursus quis, vehicula ac nisi. In elementis mé pra quem é amistosis quis leo.
-        </div>
-        <div class="mainPageEspaco-content__texto">
-          Paisis, filhis, espiritis santis. Copo furadis é disculpa de bebadis, arcu quam euismod magna. Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis! Nec orci ornare consequat. Praesent lacinia ultrices consectetur. Sed non ipsum felis.
+        Nosso projeto tem três pilares - Yoga, Naturopatia e Sagrado Feminino – que trazem a essência do que vamos oferecer em nossas atividades e vivências. Com uma programação diferenciada, nosso convite a cada um que chega ao nosso espaço é que se permita experimentar novos olhares sobre o que significa a cura e de que forma chegamos a ela. Acima de tudo, celebramos a vida e queremos compartilhar essa forma de viver – tanto nas experiências em grupo como em atendimentos individuais.
         </div>
       </div>
     </div>

@@ -18,8 +18,8 @@
             <ul>
               <li><a href="<?php echo PW_URL ?>#" class="menuRodapeLink">Home</a></li>
               <li><a href="<?php echo PW_URL ?>espaco" class="menuRodapeLink">O Espaço</a></li>
-              <li><a href="<?php echo PW_URL ?>terapias" class="menuRodapeLink">Terapias</a></li>
-              <li><a href="<?php echo PW_URL ?>atividades" class="menuRodapeLink">Atividades</a></li>
+              <li><a href="<?php echo PW_URL ?>terapias" class="menuRodapeLink">Terapias e Atividades</a></li>
+              <!-- <li><a href="<?php echo PW_URL ?>atividades" class="menuRodapeLink">Atividades</a></li> -->
               <li><a href="<?php echo PW_URL ?>quem-somos" class="menuRodapeLink">Quem somos</a></li>
               <li><a href="<?php echo PW_URL ?>parcerias" class="menuRodapeLink">Parceiras</a></li>
               <li><a href="<?php echo PW_URL ?>contato" class="menuRodapeLink">Contato</a></li>

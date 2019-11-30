@@ -14,8 +14,7 @@
     <div class="yoga-right animated slideInRight">
       <div class="yoga-right__titulo">Yoga</div>
       <div class="yoga-right__content">
-        <p class="yoga-right__texto">Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl. Delegadis gente finis, bibendum egestas augue arcu ut est. Manduma pindureta quium dia nois paga. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.</p>
-        <p class="yoga-right__texto">Mé faiz elementum girarzis, nisi eros vermeio. Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo! Diuretics paradis num copo é motivis de denguis. A ordem dos tratores não altera o pão duris.</p>
+        <p class="yoga-right__texto">Aulas de Yoga contemplando técnicas de respiração e meditação além das posturas físicas, os ásanas. Para adultos e melhor idade, com duração de 60 minutos. Não é necessário ter conhecimento e prática anterior. As aulas são adaptadas para o seu nível.</p>
       </div>
     </div>
   </section>
@@ -24,8 +23,7 @@
     <div class="naturopatia-left animated slideInLeft">
       <div class="naturopatia-left__titulo">Naturopatia</div>
         <div class="naturopatia-left__content">
-          <p class="naturopatia-left__texto">Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl. Delegadis gente finis, bibendum egestas augue arcu ut est. Manduma pindureta quium dia nois paga. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.</p>
-          <p class="naturopatia-left__texto">Mé faiz elementum girarzis, nisi eros vermeio. Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo! Diuretics paradis num copo é motivis de denguis. A ordem dos tratores não altera o pão duris.</p>
+          <p class="naturopatia-left__texto">A Naturopatia estuda e pratica a saúde complementar. Por meio de técnicas milenares naturais -indianas, chinesas e japonesas - ela traz um direcionamento para o ser, promovendo a saúde e o bem estar, abordando uma interação do corpo, da mente e da essência do ser.</p>
         </div>
     </div>
     <div class="naturopatia-right animated slideInLeft">
@@ -40,8 +38,8 @@
     <div class="sagrado-right animated slideInRight">
       <div class="sagrado-right__titulo">Sagrado Feminino</div>
       <div class="sagrado-right__content">
-        <p class="sagrado-right__texto">Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl. Delegadis gente finis, bibendum egestas augue arcu ut est. Manduma pindureta quium dia nois paga. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.</p>
-        <p class="sagrado-right__texto">Mé faiz elementum girarzis, nisi eros vermeio. Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo! Diuretics paradis num copo é motivis de denguis. A ordem dos tratores não altera o pão duris.</p>
+        <p class="sagrado-right__texto">Em nossos tempos, o resgate à cultura da Grande Mãe se evidencia todos os dias, de muitas formas. Após séculos de dualidade, divisão e competição, novamente a essência circular dos seres começa a fervilhar dentro de cada indivíduo, ganhando força e manifestando as mais diversas formas possíveis para rememorar o que faz parte de nossa Natureza.</p>
+        <p class="sagrado-right__texto">Toda Mulher guarda uma Deusa dentro de si. Todo homem guarda um Guardião dentro de si. No seio da sociedade, estão guardadas as memórias de tempos de equilíbrio e conexão com a Natureza. Tudo simplesmente é – e facilmente pode ser lembrado.</p>
       </div>
     </div>
   </section>

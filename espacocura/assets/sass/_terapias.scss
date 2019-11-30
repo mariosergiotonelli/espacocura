@@ -30,18 +30,18 @@
         flex-direction: column;
       }
       &__left{
-        width: 50%;
+        width: 100%;
         @include breakpoint($paisagem){
           width: 100%;
         }
         &-titulo{
-          @include txtEspaco($fontTitulo, 400, 20px, $black, 20px, left, initial);
+          @include txtEspaco($fontTitulo, 400, 20px, $black, 20px, center, initial);
           @include breakpoint($paisagem){
             text-align: center;
           }
         }
         &-texto{
-          @include txtEspaco($fontTexto, 400, 16px, $black, 20px, left, initial);
+          @include txtEspaco($fontTexto, 400, 16px, $black, 20px, center, initial);
           margin-top: 20px;
           @include breakpoint($paisagem){
             text-align: center;

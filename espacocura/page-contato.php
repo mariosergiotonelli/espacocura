@@ -12,8 +12,8 @@ get_header();
 
   <div class="container">
     <div class="row">
-      <h1 class="mainPageContato-titulo">Nosso Contato</h1>
-      <h4 class="mainPageContato-subtitulo">Mussum Ipsum, cacilds vidis litro abertis. Quem num gosta di mé, boa gentis num é. Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Si num tem leite então bota uma pinga aí cumpadi! Manduma pindureta quium dia nois paga.</h4>
+      <h1 class="mainPageContato-titulo">Nossos Contatos</h1>
+      <!-- <h4 class="mainPageContato-subtitulo">Mussum Ipsum, cacilds vidis litro abertis. Quem num gosta di mé, boa gentis num é. Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Si num tem leite então bota uma pinga aí cumpadi! Manduma pindureta quium dia nois paga.</h4> -->
     </div>
 
     <div class="row">

@@ -69,6 +69,12 @@
       &-texto{
         @include txtEspaco($fontTexto, 400, 14px, $black, 18px, center, initial);
         margin: 10px 0 0;
+        a{
+          color: $black;
+          &:hover{
+            color: $black;
+          }
+        }
       }
     }
   }
