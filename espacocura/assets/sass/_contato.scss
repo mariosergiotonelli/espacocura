@@ -54,17 +54,17 @@
       }
       &-email{
         &__icon{
-          background: url('../img/contato/icon-email.png') no-repeat center center, linear-gradient(180deg, $yoga 0%, $sagrado 50%, $naturo 100%);
+          background: url('../img/contato/icon-email.png') no-repeat center center, linear-gradient(180deg, $yoga 0%, $sagrado 50%, $autoconhe 100%);
         }
       }
       &-face{
         &__icon{
-          background: url('../img/contato/icon-face.png') no-repeat center center, linear-gradient(180deg, $yoga 0%, $sagrado 50%, $naturo 100%);
+          background: url('../img/contato/icon-face.png') no-repeat center center, linear-gradient(180deg, $yoga 0%, $sagrado 50%, $autoconhe 100%);
         }
       }
       &-insta{
         &__icon{
-         background: url('../img/contato/icon-insta.png') no-repeat center center, linear-gradient(180deg, $yoga 0%, $sagrado 50%, $naturo 100%);
+         background: url('../img/contato/icon-insta.png') no-repeat center center, linear-gradient(180deg, $yoga 0%, $sagrado 50%, $autoconhe 100%);
         }
       }
     }
@@ -84,7 +84,7 @@
   }
   &-bottom{
     height: 15px;
-    background-image: linear-gradient(90deg, $yoga, $naturo, $sagrado);
+    background-image: linear-gradient(90deg, $yoga, $autoconhe, $sagrado);
     margin-top: 30px;
   }
 }
