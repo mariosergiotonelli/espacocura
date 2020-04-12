@@ -22,7 +22,7 @@ get_header();
       <div class="mainPageTerapias-content-terapias">
         <div class="mainPageTerapias-content-terapias__left">
           <div class="mainPageTerapias-content-terapias__left-titulo">Acupuntura Sistêmica Chinesa</div>
-          <!-- <p class="mainPageTerapias-content-terapias__left-texto">Atendimento para dores crônicas físicas e emocionais (ansiedade, falta de sono, redução de apetite, etc), reequilíbrio energético geral, aplicações para sistema imunológico.</p> -->
+          <p class="mainPageTerapias-content-terapias__left-texto">Acupuntura Sistêmica Chinesa: atendimento para dores crônicas físicas e emocionais (ansiedade, falta de sono, redução de apetite, etc), reequilíbrio energético geral e aplicações para o sistema imunológico.</p>
         </div>
         <!-- <div class="mainPageTerapias-content-terapias__right">
           <img class="mainPageTerapias-content-terapias__right-img" src="<?php echo PW_URL_THEME ?>/assets/img/yoga.png" alt="Foto Terapia">
@@ -35,24 +35,14 @@ get_header();
         </div> -->
         <div class="mainPageTerapias-content-terapias__left">
           <div class="mainPageTerapias-content-terapias__left-titulo">Auriculoterapia</div>
-          <!-- <p class="mainPageTerapias-content-terapias__left-texto">Atendimento específico para colocação de agulhas e/ou sementes no pavilhão auricular visando equilibrio energético ou tratamento de dores físicas, problemas reumáticos, obesidade, tireóide, ansiedade, depressão.</p> -->
+          <p class="mainPageTerapias-content-terapias__left-texto">Atendimento específico para colocação de agulhas e/ou sementes no pavilhão auricular visando equilíbrio energético ou tratamento de dores físicas, problemas reumáticos, obesidade, tireóide, ansiedade, depressão, etc.</p>
         </div>
-      </div>
-
-      <div class="mainPageTerapias-content-terapias">
-        <div class="mainPageTerapias-content-terapias__left">
-          <div class="mainPageTerapias-content-terapias__left-titulo">Argiloterapia</div>
-          <!-- <p class="mainPageTerapias-content-terapias__left-texto">Bandagem funcional: aplicação de bandagens para analgesia e também tratamento de lesões comuns como dores no joelho, ombros, lombalgia, entorses, fascite plantar. Promove alívio da dor, estabilidade articular, drenagem de edemas.</p> -->
-        </div>
-        <!-- <div class="mainPageTerapias-content-terapias__right">
-          <img class="mainPageTerapias-content-terapias__right-img" src="<?php echo PW_URL_THEME ?>/assets/img/yoga.png" alt="Foto Terapia">
-        </div> -->
       </div>
 
       <div class="mainPageTerapias-content-terapias">
         <div class="mainPageTerapias-content-terapias__left">
           <div class="mainPageTerapias-content-terapias__left-titulo">Bandagem funcional</div>
-          <p class="mainPageTerapias-content-terapias__left-texto"></p>
+          <p class="mainPageTerapias-content-terapias__left-texto">Aplicação de bandagens para analgesia e também tratamento de lesões comuns como dores no joelho, ombros, lombalgia, entorses, fascite plantar, entre outras questões. Promove alívio da dor, estabilidade articular, drenagem de edemas.</p>
         </div>
         <!-- <div class="mainPageTerapias-content-terapias__right">
           <img class="mainPageTerapias-content-terapias__right-img" src="<?php echo PW_URL_THEME ?>/assets/img/yoga.png" alt="Foto Terapia">
@@ -64,19 +54,10 @@ get_header();
           <img class="mainPageTerapias-content-terapias__right-img" src="<?php echo PW_URL_THEME ?>/assets/img/yoga.png" alt="Foto Terapia">
         </div> -->
         <div class="mainPageTerapias-content-terapias__left">
-          <div class="mainPageTerapias-content-terapias__left-titulo">Barras de Access</div>
-          <!-- <p class="mainPageTerapias-content-terapias__left-texto">Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl. Delegadis gente finis, bibendum egestas augue arcu ut est. Manduma pindureta quium dia nois paga. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.</p> -->
+          <div class="mainPageTerapias-content-terapias__left-titulo">Barras de Access®</div>
+          <p class="mainPageTerapias-content-terapias__left-texto">Técnica energética de expansão de consciência que limpa crenças limitantes e proporciona o abrandamento das ondas neurais, reduzindo os picos de superaquecimento do cérebro. Sua atuação é baseada em 32 pontos localizados em torno da cabeça que correspondem a aspectos comportamentais e emocionais, como criatividade, controle, poder, sexualidade, alegria, entre outros. A liberação dos componentes eletromagnéticos acumulados nesses pontos liberam o fluxo da energia vital do indivíduo proporcionando benefícios mentais e físicos.</p>
+          <p class="mainPageTerapias-content-terapias__left-texto">É uma ferramenta alternativa para auxiliar em quadros de ansiedade, depressão, falta de sono, hiperatividade, déficit de atenção, mas não só. Essa também é uma poderosa técnica para quem busca elevar sua performance psíquica para criar, estudar e expandir a própria consciência. </p>
         </div>
-      </div>
-
-      <div class="mainPageTerapias-content-terapias">
-        <div class="mainPageTerapias-content-terapias__left">
-          <div class="mainPageTerapias-content-terapias__left-titulo">Cromoterapia</div>
-          <!-- <p class="mainPageTerapias-content-terapias__left-texto"></p> -->
-        </div>
-        <!-- <div class="mainPageTerapias-content-terapias__right">
-          <img class="mainPageTerapias-content-terapias__right-img" src="<?php echo PW_URL_THEME ?>/assets/img/yoga.png" alt="Foto Terapia">
-        </div> -->
       </div>
 
       <div class="mainPageTerapias-content-terapias">
@@ -84,35 +65,35 @@ get_header();
           <img class="mainPageTerapias-content-terapias__right-img" src="<?php echo PW_URL_THEME ?>/assets/img/yoga.png" alt="Foto Terapia">
         </div> -->
         <div class="mainPageTerapias-content-terapias__left">
-          <div class="mainPageTerapias-content-terapias__left-titulo">Fitoenergia</div>
-          <!-- <p class="mainPageTerapias-content-terapias__left-texto">Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl. Delegadis gente finis, bibendum egestas augue arcu ut est. Manduma pindureta quium dia nois paga. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.</p> -->
+          <div class="mainPageTerapias-content-terapias__left-titulo">Eletroacupuntura</div>
+          <p class="mainPageTerapias-content-terapias__left-texto">Técnica que potencializa os efeitos da acupuntura sistêmica chinesa por meio da passagem de uma corrente de pulso através dos tecidos do corpo por meio de agulhas de acupuntura. Essa corrente elétrica reduz o espasmo muscular e permite o movimento ativo do local tratado, melhorando a circulação periférica local e estimulando o processo de cura.</p>
         </div>
+      </div>
+
+      <div class="mainPageTerapias-content-terapias">
+        <div class="mainPageTerapias-content-terapias__left">
+          <div class="mainPageTerapias-content-terapias__left-titulo">Florais de Bach</div>
+          <p class="mainPageTerapias-content-terapias__left-texto">Os florais servem para derrubar os bloqueios energéticos além de ajudar no tratamento de algum mal físico. Aperfeiçoa qualidades e transcendência perante algum problema que está sendo vivido, ajudando o ser a se reestruturar e reorganizar. A terapia floral é uma aliada na busca do autoconhecimento. As essências florais nos ajudam em nossa jornada de responsabilidade durante a vida, dissolvendo nossos medos, angústias, dúvidas ansiedade trazendo o equilíbrio necessário à verdadeira expressão, criatividade, paz interior, amor-próprio e autoestima.</p>
+        </div>
+        <!-- <div class="mainPageTerapias-content-terapias__right">
+          <img class="mainPageTerapias-content-terapias__right-img" src="<?php echo PW_URL_THEME ?>/assets/img/yoga.png" alt="Foto Terapia">
+        </div> -->
       </div>
 
       <div class="mainPageTerapias-content-terapias">
         <div class="mainPageTerapias-content-terapias__left">
           <div class="mainPageTerapias-content-terapias__left-titulo">Moxabustão</div>
-          <!-- <p class="mainPageTerapias-content-terapias__left-texto"></p> -->
+          <p class="mainPageTerapias-content-terapias__left-texto">É uma espécie de acupuntura térmica, que pode ser feita pela combustão da erva artemísia em bastão com a finalidade de promover melhora na circulação de energia vital e sangue no ponto aplicado, otimizando a nutrição dos órgãos e vísceras, feita em conjunto com a acupuntura sistêmica. Também pode ser aplicada para alívio de tensões musculares.</p>
         </div>
         <!-- <div class="mainPageTerapias-content-terapias__right">
           <img class="mainPageTerapias-content-terapias__right-img" src="<?php echo PW_URL_THEME ?>/assets/img/yoga.png" alt="Foto Terapia">
         </div> -->
-      </div>
-
-      <div class="mainPageTerapias-content-terapias">
-        <!-- <div class="mainPageTerapias-content-terapias__right">
-          <img class="mainPageTerapias-content-terapias__right-img" src="<?php echo PW_URL_THEME ?>/assets/img/yoga.png" alt="Foto Terapia">
-        </div> -->
-        <div class="mainPageTerapias-content-terapias__left">
-          <div class="mainPageTerapias-content-terapias__left-titulo">Reiki</div>
-          <!-- <p class="mainPageTerapias-content-terapias__left-texto">Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl. Delegadis gente finis, bibendum egestas augue arcu ut est. Manduma pindureta quium dia nois paga. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.</p> -->
-        </div>
       </div>
 
       <div class="mainPageTerapias-content-terapias">
         <div class="mainPageTerapias-content-terapias__left">
           <div class="mainPageTerapias-content-terapias__left-titulo">Ventosaterapia</div>
-          <!-- <p class="mainPageTerapias-content-terapias__left-texto">Uso de ventosas para maior oxigenação dos tecidos para liberação de toxinas e tratamento de dores musculares.</p> -->
+          <p class="mainPageTerapias-content-terapias__left-texto">Uso de ventosas para maior oxigenação dos tecidos para liberação de toxinas e tratamento de dores musculares.</p>
         </div>
         <!-- <div class="mainPageTerapias-content-terapias__right">
           <img class="mainPageTerapias-content-terapias__right-img" src="<?php echo PW_URL_THEME ?>/assets/img/yoga.png" alt="Foto Terapia">
@@ -130,14 +111,21 @@ get_header();
         </div> -->
         <div class="mainPageTerapias-content-terapias__left">
           <div class="mainPageTerapias-content-terapias__left-titulo">Arteterapia</div>
-          <!-- <p class="mainPageTerapias-content-terapias__left-texto">Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl. Delegadis gente finis, bibendum egestas augue arcu ut est. Manduma pindureta quium dia nois paga. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.</p> -->
+          <p class="mainPageTerapias-content-terapias__left-texto">A Arteterapia proporciona o fazer artístico no contexto de uma relação profissional por pessoas que experienciam doenças, traumas ou dificuldades na vida, assim como por pessoas que buscam desenvolvimento pessoal.</p>
+          <p class="mainPageTerapias-content-terapias__left-texto">Por meio do criar em arte e do refletir sobre os processos e trabalhos artísticos resultantes, as pessoas podem ampliar o conhecimento de si e dos outros, aumentar sua autoestima, lidar melhor com sintomas, estresse e experiências traumáticas, desenvolver recursos físicos, cognitivos, emocionais, bem como desfrutar do prazer vitalizador de expressarem-se criativamente. </p>
+          <p class="mainPageTerapias-content-terapias__left-texto">A Arteterapia observa e analisa a produção expressiva, plástica e criativa, buscando a prevenção, a recuperação e a redução de efeitos do estresse, favorecendo transformações benéficas nas condições em que se encontra o indivíduo, possibilitando o reencontrar-se, reconhecer-se, reavaliar-se e reinventar-se no modo de desenvolver suas atividades e participação na sociedade.</p>
+          <p class="mainPageTerapias-content-terapias__left-texto">Os fundamentos teóricos e práticos da Arteterapia são multidisciplinares, multiculturais e transdisciplinares. As oficinas são oferecidas para adultos e crianças e também para núcleos familiares com duração de 1 hora e meia. </p>
+          <p class="mainPageTerapias-content-terapias__left-texto">As atividades podem incluir pintura em tela, confecção de colares como japamalas, pintura em cerâmica, confecção de vasos de argila, uso de tintas plásticas ou lápis de cor, aquarela, plantação de mudas, confecção de mandalas ou móbiles, construção de objetos com base em sucatas, etc. Tudo pode virar arte desde que se permita que a criatividade seja explorada, ressignificando objetos e criando novas formas. </p>
         </div>
       </div>
 
       <div class="mainPageTerapias-content-terapias">
         <div class="mainPageTerapias-content-terapias__left">
           <div class="mainPageTerapias-content-terapias__left-titulo">Meditações guiadas</div>
-          <!-- <p class="mainPageTerapias-content-terapias__left-texto">Uso de ventosas para maior oxigenação dos tecidos para liberação de toxinas e tratamento de dores musculares.</p> -->
+          <p class="mainPageTerapias-content-terapias__left-texto">O conceito de Meditação vem do latim meditare, que significa ir para o centro. Nesse caso, o centro de si mesmo, desligando-se do mundo exterior e abrindo as portas do mundo interior. No sânscrito, meditação é dhyāna: “pensar ou refletir”. Um estado de consciência em que se mantém a atenção simplesmente no presente, esvaziando a mente. Essa profunda concentração permite a desidentificação com o ego, expandindo a consciência para a noção de conexão com o Todo. </p>
+          <p class="mainPageTerapias-content-terapias__left-texto">Essa é uma prática milenar, contida em diversas filosofias e religiões, e tamanha a sua importância para a humanidade, sua origem e descoberta não tem data conhecida, pois simplesmente faz parte de nossa história.  </p>
+          <p class="mainPageTerapias-content-terapias__left-texto">Vivemos em um momento histórico em que nunca se houve tantos estímulos e informações circulando pela sociedade e pelo cotidiano humano. Essa característica social potencializa os tais “males do século”: ansiedade e depressão. Nesse contexto, essa prática milenar é uma ferramenta poderosa de centramento e reconhecimento do próprio propósito enquanto ser.  </p>
+          <p class="mainPageTerapias-content-terapias__left-texto">A meditação guiada é uma prática alternativa para aqueles que têm dificuldade de aderir ou manter a prática de silenciamento mental por falta de familiaridade ou outras circunstâncias. A indução ou locução tem o objetivo de tranquilizar o praticante e levá-lo ao estado meditativo a partir de uma narrativa simbólica aliada a uma frequência sonora tranquilizadora e técnicas verbais de sugestão hipnótica. Oferecemos a prática tanto em grupo como de forma individual.  </p>
         </div>
         <!-- <div class="mainPageTerapias-content-terapias__right">
           <img class="mainPageTerapias-content-terapias__right-img" src="<?php echo PW_URL_THEME ?>/assets/img/yoga.png" alt="Foto Terapia">

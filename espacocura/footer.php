@@ -61,11 +61,7 @@
 <script src='http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js'></script>
 <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<<<<<<< HEAD
-<script src="http://localhost:3000/espacocura/wp-content/themes/espacocura/assets/js/style.js"></script>
-=======
 <script src="<?php echo get_template_directory_uri() ?>/assets/js/style.js"></script>
->>>>>>> 2fb2fee21fc4a09344eb21baad24ba333c153b64
 
 </body>
 </html>

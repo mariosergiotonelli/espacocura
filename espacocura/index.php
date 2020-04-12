@@ -19,27 +19,28 @@
     </div>
   </section>
 
-  <section class="naturopatia">
-    <div class="naturopatia-left animated slideInLeft">
-      <div class="naturopatia-left__titulo">Naturopatia</div>
-        <div class="naturopatia-left__content">
-          <p class="naturopatia-left__texto">A Naturopatia estuda e pratica a saúde complementar. Por meio de técnicas milenares naturais -indianas, chinesas e japonesas - ela traz um direcionamento para o ser, promovendo a saúde e o bem estar, abordando uma interação do corpo, da mente e da essência do ser.</p>
-        </div>
+  <section class="sagrado">
+    <div class="sagrado-right animated slideInLeft">
+      <div class="sagrado-right__titulo">Sagrado Feminino</div>
+        <div class="sagrado-right__content">
+          <p class="sagrado-right__texto">Em nossos tempos, o resgate à cultura da Grande Mãe se evidencia todos os dias, de muitas formas. Após séculos de dualidade, divisão e competição, novamente a essência circular dos seres começa a fervilhar dentro de cada indivíduo, ganhando força e manifestando as mais diversas formas possíveis para rememorar o que faz parte de nossa Natureza.</p>
+          <p class="sagrado-right__texto">Toda Mulher guarda uma Deusa dentro de si. Todo homem guarda um Guardião dentro de si. No seio da sociedade, estão guardadas as memórias de tempos de equilíbrio e conexão com a Natureza. Tudo simplesmente é – e facilmente pode ser lembrado.</p>
+          </div>
     </div>
-    <div class="naturopatia-right animated slideInLeft">
-      <img class="naturopatia-right__simbolo animated fadeIn" src="<?php echo PW_URL_THEME ?>/assets/img/mandala-branca.png" alt="Mandala Espaço Cura">
+    <div class="sagrado-right animated fadeIn">
+      <img class="sagrado-right__simbolo animated fadeIn" src="<?php echo PW_URL_THEME ?>/assets/img/mandala-branca.png" alt="Mandala Espaço Cura">
     </div>
   </section>
 
-  <section class="sagrado">
-    <div class="sagrado-left">
-      <img class="sagrado-left__simbolo animated fadeIn" src="<?php echo PW_URL_THEME ?>/assets/img/mandala-branca.png" alt="Mandala Espaço Cura">
+  <section class="autoconhecimento">
+    <div class="autoconhecimento-left">
+      <img class="yoga-left__simbolo animated fadeIn" src="<?php echo PW_URL_THEME ?>/assets/img/mandala-branca.png" alt="Mandala Espaço Cura">
     </div>
-    <div class="sagrado-right animated slideInRight">
-      <div class="sagrado-right__titulo">Sagrado Feminino</div>
-      <div class="sagrado-right__content">
-        <p class="sagrado-right__texto">Em nossos tempos, o resgate à cultura da Grande Mãe se evidencia todos os dias, de muitas formas. Após séculos de dualidade, divisão e competição, novamente a essência circular dos seres começa a fervilhar dentro de cada indivíduo, ganhando força e manifestando as mais diversas formas possíveis para rememorar o que faz parte de nossa Natureza.</p>
-        <p class="sagrado-right__texto">Toda Mulher guarda uma Deusa dentro de si. Todo homem guarda um Guardião dentro de si. No seio da sociedade, estão guardadas as memórias de tempos de equilíbrio e conexão com a Natureza. Tudo simplesmente é – e facilmente pode ser lembrado.</p>
+    <div class="autoconhecimento-left animated slideInRight">
+      <div class="autoconhecimento-left__titulo">Autoconhecimento</div>
+      <div class="autoconhecimento-left__content">
+        <p class="autoconhecimento-left__texto">Em nossos tempos, o resgate à cultura da Grande Mãe se evidencia todos os dias, de muitas formas. Após séculos de dualidade, divisão e competição, novamente a essência circular dos seres começa a fervilhar dentro de cada indivíduo, ganhando força e manifestando as mais diversas formas possíveis para rememorar o que faz parte de nossa Natureza.</p>
+        <p class="autoconhecimento-left__texto">Toda Mulher guarda uma Deusa dentro de si. Todo homem guarda um Guardião dentro de si. No seio da sociedade, estão guardadas as memórias de tempos de equilíbrio e conexão com a Natureza. Tudo simplesmente é – e facilmente pode ser lembrado.</p>
       </div>
     </div>
   </section>
