@@ -9,7 +9,7 @@
 
   <section class="yoga">
     <div class="yoga-left">
-      <img class="yoga-left__simbolo animated fadeIn" src="http://espacocura.com/wp-content/themes/espacocura//assets/img/mandala-branca.png" alt="Mandala Espaço Cura">
+      <img class="yoga-left__simbolo animated fadeIn" src="<?php echo PW_URL_THEME ?>/assets/img/mandala-branca.png" alt="Mandala Espaço Cura">
     </div>
     <div class="yoga-right animated slideInRight">
       <div class="yoga-right__titulo">Yoga</div>
@@ -27,13 +27,13 @@
         </div>
     </div>
     <div class="naturopatia-right animated slideInLeft">
-      <img class="naturopatia-right__simbolo animated fadeIn" src="http://espacocura.com/wp-content/themes/espacocura//assets/img/mandala-branca.png" alt="Mandala Espaço Cura">
+      <img class="naturopatia-right__simbolo animated fadeIn" src="<?php echo PW_URL_THEME ?>/assets/img/mandala-branca.png" alt="Mandala Espaço Cura">
     </div>
   </section>
 
   <section class="sagrado">
     <div class="sagrado-left">
-      <img class="sagrado-left__simbolo animated fadeIn" src="http://espacocura.com/wp-content/themes/espacocura//assets/img/mandala-branca.png" alt="Mandala Espaço Cura">
+      <img class="sagrado-left__simbolo animated fadeIn" src="<?php echo PW_URL_THEME ?>/assets/img/mandala-branca.png" alt="Mandala Espaço Cura">
     </div>
     <div class="sagrado-right animated slideInRight">
       <div class="sagrado-right__titulo">Sagrado Feminino</div>
