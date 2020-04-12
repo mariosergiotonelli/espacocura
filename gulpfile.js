@@ -35,7 +35,6 @@ gulp.task('sassprod', function() {
   return gulp.src(scssPasta)
     .pipe(sass(sassProdOptions).on('error', sass.logError))
     .pipe(autoprefixer())
-    //.pipe(rename('brweek.css'))
     .pipe(gulp.dest(cssDest));
 });
 
@@ -58,7 +57,7 @@ gulp.task('browser-sync', function() {
   ////----////
 
   browserSync.init(files, {
-    proxy:"http://localhost/Espaco-cura",
+    proxy:"http://localhost/Espaco-Cura/",
     watchEvents : ['change', 'add', 'unlink', 'addDir', 'unlinkDir'],
     notify:false
   });
@@ -74,5 +73,5 @@ gulp.task('watch', function() {
 
 
 // task default gulp
-gulp.task('default', ['sassprod', 'browser-sync' , 'watch']);
+gulp.task('default', ['sassprod', 'browser-sync', 'watch']);
 //gulp.task('default', ['sassprod', 'watch']);

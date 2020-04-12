@@ -1,150 +1,89 @@
-.footerFritz{
-  border-top: 50px solid #000932;
+.footerEspaco{
   padding: 0;
-  margin-top: 50px;
+  margin: 0;
 
-  .contatosFritz{
-    background: $bgRodape;
-    .logoFooter{
-      @include make-xs-column(12);
-      @include make-sm-column(12);
-      @include make-md-column(12);
+  .contatosEspaco{
+    background: $white;
 
-      a{
-        display: block;
-        margin: 10px 0;
-        width: 215px;
-        @include breakpoint($tablet){
-          width: 100%
+    .infoRodape{
+      display: flex;
+      justify-content: space-around;
+      align-items: start;
+      height: 150px;
+      margin: 30px 0;
+      @include breakpoint($paisagem){
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .endRodape {
+        @include breakpoint($paisagem){
+          width: 100%;
+          margin-bottom: 20px;
         }
-        .logo{
-          background: url("../img/logo.png");
-          background-repeat: no-repeat;
-          display: block;
-          float: left;
-          height: 70px;
-          text-indent:-9999px;
+        p{
+          @include txtEspaco($fontTexto, 400, 16px, $black, 16px, left, initial);
+
+          @include breakpoint($paisagem){
+            text-align: center;
+          }
+        }
+        span{
+          margin: 0 10px 0 -26px;
+        }
+        a{
+          color: $black;
+          letter-spacing: 1px;
+        }
+      }
+
+      .menuRodape{
+        margin: 0;
+        @include breakpoint($paisagem){
           text-align: center;
-          width: 215px;
-          @include breakpoint($tablet){
-            float: none;
-            margin: 20px auto;
+          width: 100%;
+          margin-bottom: 20px;
+        }
+        .menuRodapeLink{
+          @include txtEspaco($fontTexto, 400, 16px, $black, 16px, left, uppercase);
+          @include breakpoint($paisagem){
+            text-align: center;
           }
         }
       }
 
-    }
-
-    .infoRodape{
-      @include make-xs-column(12);
-      @include make-sm-column(12);
-      @include make-md-column(6);
-
-      @include breakpoint($tablet){
-        text-align: center;
-      }
-
-      .endRodape p{
-        color: #fff;
-        font-family: $font-NexaL;
-        font-weight: bold;
-        margin: 0 0 0 25px;
-        @include breakpoint($iphone5){
-          font-size: 14px;
+      .redesRodape{
+        display: flex;
+        width: 100px;
+        justify-content: space-between;
+        @include breakpoint($paisagem){
+          width: 140px;
+          justify-content: space-around;
         }
-      }
-
-      .endRodape span{
-        margin: 0 10px 0 -26px;
-      }
-
-      .endRodape a{
-        color: #fff;
-        letter-spacing: 1px;
-      }
-
-      .menuRodape{
-        margin: 20px 0;
-        .menuRodapeLink{
-          color:#fff;
-          display: inline-block;
-          font-family: $font-NexaL;
-          font-weight: bold;
-          margin: 0px;
-          text-transform: uppercase;
+        .facebook{
+          background: url('../img/face-site.png');
+          @include redesHeader;
         }
-      }
-    }
-
-    .contatoRodape{
-      @include make-xs-column(12);
-      @include make-sm-column(12);
-      @include make-md-column(6);
-
-      &__titulo{
-        color: #fff;
-        font-family: $font-NexaB;
-        font-size: 36px;
-        font-weight: 400;
-        margin: 0;
-        text-align: center;
-        @include breakpoint($celular){
-          font-size: 24px;
+        .instagram{
+          background: url('../img/instagram-site.png');
+          @include redesHeader;
         }
-      }
-
-      &__descricao{
-        color: #fff;
-        font-family: $font-NexaL;
-        text-align: center;
-        @include breakpoint($celular){
-          font-size: 14px;
-        }
-      }
-
-      .campoContato{
-        border-radius: 10px;
-        border: none;
-        padding: 5px 10px;
-        width: 100%;
-      }
-
-      .btnContato{
-        background-color: #000932;
-        border-radius: 10px;
-        border: 1px solid #000932;
-        color: #FFF12C;
-        display: block;
-        font-size: 14px;
-        font-family: $font-NexaB;
-        font-weight: bold;
-        margin: 10px auto;
-        padding: 6px 12px;
-        outline: none;
-        text-transform: uppercase;
-        a{
-          color: #FFF12C;
-        }
-
-        @include breakpoint($tablet){
-          margin: 0 auto;
-          text-align: center;
-        }
-
       }
     }
   }
 
-  .direitosFritz{
-    background: #000;
+  .direitosEspaco{
+    background: $black;
     padding: 10px 0;
     p{
-      color: #fff;
+      color: $white;
       font-size: 12px;
       margin: 0 0 5px;
       text-align: center;
       a{
-        color: #fff;
+        color: $white;
       }
     }
   }
