@@ -142,6 +142,26 @@ get_header();
         </div>
       </div>
 
+      <div class="mainPageTerapias-content-terapias">
+        <!-- <div class="mainPageTerapias-content-terapias__right">
+          <img class="mainPageTerapias-content-terapias__right-img" src="<?php echo PW_URL_THEME ?>/assets/img/yoga.png" alt="Foto Terapia">
+        </div> -->
+        <div class="mainPageTerapias-content-terapias__left">
+          <div class="mainPageTerapias-content-terapias__left-titulo">Yoga</div>
+          <!-- <p class="mainPageTerapias-content-terapias__left-texto">Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl. Delegadis gente finis, bibendum egestas augue arcu ut est. Manduma pindureta quium dia nois paga. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.</p> -->
+        </div>
+      </div>
+
+      <div class="mainPageTerapias-content-terapias">
+        <!-- <div class="mainPageTerapias-content-terapias__right">
+          <img class="mainPageTerapias-content-terapias__right-img" src="<?php echo PW_URL_THEME ?>/assets/img/yoga.png" alt="Foto Terapia">
+        </div> -->
+        <div class="mainPageTerapias-content-terapias__left">
+          <div class="mainPageTerapias-content-terapias__left-titulo">Yoga Kids</div>
+          <!-- <p class="mainPageTerapias-content-terapias__left-texto">Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl. Delegadis gente finis, bibendum egestas augue arcu ut est. Manduma pindureta quium dia nois paga. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.</p> -->
+        </div>
+      </div>
+
     </div>
   </div>
 </div>
