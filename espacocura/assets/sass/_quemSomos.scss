@@ -1,6 +1,6 @@
 .mainPageQuemSomos{
   &-topo{
-    background: black;
+    background: $black;
     height: 70px;
     width: 100%;
     opacity: 0.5;
@@ -25,7 +25,7 @@
   }
   &-content{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: start;
     margin: 50px 0 0;
     @include breakpoint($paisagem){
@@ -47,7 +47,7 @@
         margin: 20px 0 0;
       }
       &-img{
-        background: black;
+        background: $black;
         border-radius: 50%;
         height: 250px;
         width: 250px;
