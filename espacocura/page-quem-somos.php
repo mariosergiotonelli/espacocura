@@ -21,13 +21,13 @@ get_header();
         <div class="mainPageQuemSomos-content__servicos">
           <div class="mainPageQuemSomos-content__servicos-img raisa"></div>
           <div class="mainPageQuemSomos-content__servicos-titulo">Raisa Covre </div>
-          <div class="mainPageQuemSomos-content__servicos-texto">Cofundadora do Projeto Espaço Cura e Diretora de Comunicação </div>
+          <div class="mainPageQuemSomos-content__servicos-texto">Cofundadora do Projeto Espaço Cura, terapeuta e facilitadora de circulos de Sagrado Feminino.</div>
           <div class="mainPageQuemSomos-content__servicos-texto"><a href="mailto:raisa.espacocura@gmail.com">E-mail: raisa.espacocura@gmail.com</a></div>
         </div>
         <div class="mainPageQuemSomos-content__servicos">
           <div class="mainPageQuemSomos-content__servicos-img raquel"></div>
           <div class="mainPageQuemSomos-content__servicos-titulo">Raquel Amaral </div>
-          <div class="mainPageQuemSomos-content__servicos-texto">Cofundadora do Projeto Espaço Cura e Diretora Financeira.</div>
+          <div class="mainPageQuemSomos-content__servicos-texto">Cofundadora do Projeto Espaço Cura, professora de Yoga e terapeuta.</div>
           <div class="mainPageQuemSomos-content__servicos-texto"><a href="mailto:raquel.espacocura@gmail.com">E-mail: raquel.espacocura@gmail.com</a></div>
         </div>
       </div>

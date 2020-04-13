@@ -21,7 +21,7 @@
               <li><a href="/terapias" class="menuRodapeLink">Terapias e Atividades</a></li>
               <!-- <li><a href="/atividades" class="menuRodapeLink">Atividades</a></li> -->
               <li><a href="/quem-somos" class="menuRodapeLink">Quem somos</a></li>
-              <li><a href="/parcerias" class="menuRodapeLink">Parceiras</a></li>
+              <li><a href="/parcerias" class="menuRodapeLink">Parcerias</a></li>
               <li><a href="/contato" class="menuRodapeLink">Contato</a></li>
             </ul>
           </div>
