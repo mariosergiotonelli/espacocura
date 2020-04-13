@@ -4,8 +4,8 @@
 <title><?php wp_title( ' | ', true, 'right');?></title>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="stylesheet" href="http://localhost:3000/Espaco-Cura/wp-content/themes/espacocura/assets/css/style.css" />
-<link rel="stylesheet" href="http://localhost:3000/Espaco-Cura/wp-content/themes/espacocura//assets/css/reset.css" />
+<link rel="stylesheet" href="<?php echo PW_URL_THEME; ?>/espacocura/assets/css/style.css" />
+<link rel="stylesheet" href="<?php echo PW_URL_THEME; ?>/espacocura//assets/css/reset.css" />
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
@@ -28,13 +28,13 @@
 
     <nav>
       <ul>
-        <li><a href="http://localhost:3000/Espaco-Cura/#">Home</a></li>
-        <li><a href="http://localhost:3000/Espaco-Cura//espaco">O Espaço</a></li>
-        <li><a href="http://localhost:3000/Espaco-Cura//terapias">Terapias e Atividades</a></li>
+        <li><a href="/#">Home</a></li>
+        <li><a href="/espaco">O Espaço</a></li>
+        <li><a href="/terapias">Terapias e Atividades</a></li>
         <!-- <li><a href="/atividades">Atividades</a></li> -->
-        <li><a href="http://localhost:3000/Espaco-Cura/quem-somos/">Quem Somos</a></li>
-        <li><a href="http://localhost:3000/Espaco-Cura//parcerias">Parcerias</a></li>
-        <li><a href="http://localhost:3000/Espaco-Cura//contato">Contato</a></li>
+        <li><a href="/quem-somos/">Quem Somos</a></li>
+        <li><a href="/parcerias">Parcerias</a></li>
+        <li><a href="/contato">Contato</a></li>
       </ul>
     </nav>
   </div>
