@@ -8,13 +8,26 @@
     }
     &-formYoga {
       background:linear-gradient($yoga, $sagrado, $autoconhe);
-      position: absolute;
-      border-radius: 5%;
+      border-radius: 20px;
       padding: 10px;
+      position: absolute;
       right: 150px;
       text-align: center;
       top: 100px;
       width: 500px;
+      z-index: 10;
+      @include breakpoint($note){
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: 25px;
+      }
+      @include breakpoint($paisagem){
+        margin: 0 auto;
+        top: 15px;
+        position: relative;
+        width: 95%;
+      }
       input {
         border-radius: 5px;
         border: 0;
