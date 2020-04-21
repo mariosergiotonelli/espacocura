@@ -123,12 +123,28 @@ body {
             400,
             16px,
             $white,
-            16px,
+            18px,
             left,
             initial
           );
           @include breakpoint($paisagem) {
             font-size: 14px;
+          }
+          a {
+            @include txtEspaco(
+              $fontTexto,
+              400,
+              16px,
+              $white,
+              18px,
+              left,
+              initial
+            );
+            text-decoration: underline;
+            transition: all 0.2s;
+            &:hover{
+              font-size: 18px;
+            }
           }
         }
       }
@@ -197,7 +213,7 @@ body {
             400,
             16px,
             $white,
-            16px,
+            18px,
             left,
             initial
           );
@@ -257,7 +273,7 @@ body {
             400,
             16px,
             $white,
-            16px,
+            18px,
             left,
             initial
           );

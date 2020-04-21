@@ -28,13 +28,13 @@
 
     <nav>
       <ul>
-        <li><a href="/#">Home</a></li>
-        <li><a href="/espaco">O Espaço</a></li>
-        <li><a href="/terapias">Terapias e Atividades</a></li>
+        <li><a href="http://localhost:3000/Espaco-Cura/#">Home</a></li>
+        <li><a href="http://localhost:3000/Espaco-Cura/espaco">O Espaço</a></li>
+        <li><a href="http://localhost:3000/Espaco-Cura/terapias">Terapias e Atividades</a></li>
         <!-- <li><a href="/atividades">Atividades</a></li> -->
-        <li><a href="/quem-somos/">Quem Somos</a></li>
-        <li><a href="/parcerias">Parcerias</a></li>
-        <li><a href="/contato">Contato</a></li>
+        <li><a href="http://localhost:3000/Espaco-Cura/quem-somos/">Quem Somos</a></li>
+        <li><a href="http://localhost:3000/Espaco-Cura/parcerias">Parcerias</a></li>
+        <li><a href="http://localhost:3000/Espaco-Cura/contato">Contato</a></li>
       </ul>
     </nav>
   </div>
