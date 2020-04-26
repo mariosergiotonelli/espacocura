@@ -63,5 +63,13 @@
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="<?php echo get_template_directory_uri() ?>/assets/js/style.js"></script>
 
+<script>
+  if(window.location.href.indexOf('lp-yoga') > 0){
+  var wpcf7Elm = document.querySelector( '.wpcf7' );
+    wpcf7Elm.addEventListener( 'wpcf7submit', function( event ) {
+      window.location.href =  'http://espacocura.com/download/PDF-Yoga.pdf', '_blank';
+    }, false );
+  }
+</script>
 </body>
 </html>
