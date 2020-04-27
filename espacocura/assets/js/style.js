@@ -8,12 +8,14 @@ function redirectForm() {
 }
 
 function popupEspaco(){
-  $('.popupBg, .popupEspaco').fadeIn();
+  $('.popupEspacoCura').fadeIn();
+  $('.popupEspacoCura .modal').addClass('active');
 }
 
 function fechaPopup(){
-  $('.popupBg, .popupEspaco').on('click', function(){
-    $('.popupBg, .popupEspaco').fadeOut();
+  $('.popupBg, .popupEspaco-close').on('click', function(){
+    $('.popupBg, .popupEspaco-close, .popupEspacoCura').fadeOut();
+    $('.popupEspacoCura .modal').removeClass('active');
     setCookie("PopupEspacoCura", (24 * 60 * 60 * 1000));
   });
 }
@@ -54,7 +56,6 @@ $(document).ready(function () {
   if(!getCookie('PopupEspacoCura')){
     popupEspaco();
   }
-
 
   $(".hamburguer").on('click', function () {
     $("nav").toggleClass("open");

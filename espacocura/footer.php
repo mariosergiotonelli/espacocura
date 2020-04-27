@@ -52,16 +52,6 @@
     </div>
   </section>
 
-  <section class="popupBg">
-  </section>
-
-  <section class="popupEspaco">
-    <a href="/lp-yoga/">
-      <img class="popupEspaco-img" src="<?php echo PW_URL_THEME ?>assets/img/lp-ebook-yoga/popupYoga.jpg" alt="Popup Espaço Cura">
-    </a>
-    <div class="popupEspaco-close">X</div>
-  </section>
-
 </footer>
 
 <?php wp_footer(); ?>
