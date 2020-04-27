@@ -66,6 +66,12 @@
       font-size: 26px;
     }
   }
+  &-subtitulo{
+    @include txtEspaco($fontTitulo, 400, 18px, $black, 20px, center, initial);
+    @include breakpoint($paisagem){
+      font-size: 16px;
+    }
+  }
   &-texto{
     @include txtEspaco($fontTexto, 400, 14px, $black, 18px, center, initial);
   }
