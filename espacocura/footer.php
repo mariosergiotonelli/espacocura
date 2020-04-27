@@ -19,7 +19,6 @@
               <li><a href="/#" class="menuRodapeLink">Home</a></li>
               <li><a href="/espaco" class="menuRodapeLink">O Espaço</a></li>
               <li><a href="/terapias" class="menuRodapeLink">Terapias e Atividades</a></li>
-              <!-- <li><a href="/atividades" class="menuRodapeLink">Atividades</a></li> -->
               <li><a href="/quem-somos" class="menuRodapeLink">Quem somos</a></li>
               <li><a href="/parcerias" class="menuRodapeLink">Parcerias</a></li>
               <li><a href="/contato" class="menuRodapeLink">Contato</a></li>
@@ -53,6 +52,16 @@
     </div>
   </section>
 
+  <section class="popupBg">
+  </section>
+
+  <section class="popupEspaco">
+    <a href="/lp-yoga/">
+      <img class="popupEspaco-img" src="<?php echo PW_URL_THEME ?>assets/img/lp-ebook-yoga/popupYoga.jpg" alt="Popup Espaço Cura">
+    </a>
+    <div class="popupEspaco-close">X</div>
+  </section>
+
 </footer>
 
 <?php wp_footer(); ?>
@@ -62,14 +71,5 @@
 <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="<?php echo get_template_directory_uri() ?>/assets/js/style.js"></script>
-
-<script>
-  if(window.location.href.indexOf('lp-yoga') > 0){
-  var wpcf7Elm = document.querySelector( '.wpcf7' );
-    wpcf7Elm.addEventListener( 'wpcf7submit', function( event ) {
-      window.location.href =  'http://espacocura.com/download/PDF-Yoga.pdf', '_blank';
-    }, false );
-  }
-</script>
 </body>
 </html>
