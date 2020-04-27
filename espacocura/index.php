@@ -49,16 +49,3 @@
 
   <?php get_footer(); ?>
 </main>
-
-<div class="popupEspacoCura">
-  <div class="modal">
-    <div class="bg popupBg" ></div>
-    <div class="modal-conteudo">
-      <a href="/lp-yoga">
-        <img class="popupEspaco-img" src="<?php echo PW_URL_THEME ?>assets/img/lp-ebook-yoga/popupYoga.jpg" alt="Popup Espaço Cura">
-      </a>
-      <div class="popupEspaco-close">X</div>
-    </div>
-  </div>
-  </div>
-</div>
