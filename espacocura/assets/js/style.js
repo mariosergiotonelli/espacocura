@@ -1,19 +1,23 @@
 function redirectForm() {
-  if (window.location.href.indexOf('lp-yoga') > 0) {
-    var wpcf7Elm = document.querySelector('.wpcf7');
-    wpcf7Elm.addEventListener('wpcf7submit', function () {
-      window.location.href = 'http://espacocura.com/download/PDF-Yoga.pdf', '_blank';
-    }, false);
-  }
+  $('.btnContato').on('click', function(){
+    if (window.location.href.indexOf('lp-yoga') > 0) {
+      var submitForm = setInterval(function () {
+        if ($('.wpcf7-mail-sent-ok').length) {
+          window.location.href = 'http://espacocura.com/download/PDF-Yoga.pdf', '_blank';
+          clearInterval(submitForm)
+        }
+      }, 500)
+    }
+  })
 }
 
-function popupEspaco(){
+function popupEspaco() {
   $('.popupEspacoCura').fadeIn();
   $('.popupEspacoCura .modal').addClass('active');
 }
 
-function fechaPopup(){
-  $('.popupBg, .popupEspaco-close').on('click', function(){
+function fechaPopup() {
+  $('.popupBg, .popupEspaco-close').on('click', function () {
     $('.popupBg, .popupEspaco-close, .popupEspacoCura').fadeOut();
     $('.popupEspacoCura .modal').removeClass('active');
     setCookie("PopupEspacoCura", (24 * 60 * 60 * 1000));
@@ -53,7 +57,7 @@ $(document).ready(function () {
   redirectForm();
   fechaPopup();
 
-  if(!getCookie('PopupEspacoCura')){
+  if (!getCookie('PopupEspacoCura')) {
     popupEspaco();
   }
 
