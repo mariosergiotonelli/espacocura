@@ -3,7 +3,7 @@ function redirectForm() {
     if (window.location.href.indexOf('lp-yoga') > 0) {
       var submitForm = setInterval(function () {
         if ($('.wpcf7-mail-sent-ok').length) {
-          window.location.href = 'http://espacocura.com/download/PDF-Yoga.pdf', '_blank';
+          window.open('http://espacocura.com/download/PDF-Yoga.pdf');
           clearInterval(submitForm)
         }
       }, 500)
