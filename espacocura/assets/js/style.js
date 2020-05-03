@@ -57,7 +57,7 @@ $(document).ready(function () {
   redirectForm();
   fechaPopup();
 
-  if (!getCookie('PopupEspacoCura')) {
+  if (!getCookie('PopupEspacoCura') && window.location.href.indexOf('lp-yoga') < 0) {
     popupEspaco();
   }
 

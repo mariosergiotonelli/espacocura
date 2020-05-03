@@ -16,7 +16,7 @@
       <div class="yoga-right__content">
         <p class="yoga-right__texto">O Yoga é uma filosofia prática e vivencial, que vem de uma tradição oriental de mais de 5 mil anos. A intenção do Yoga é autoconhecimento, reconhecer nossa natureza una e única. Reeducando nossos hábitos, reprogramando a mente e abrindo espaço para organizar os pensamentos.</p>
         <p class="yoga-right__texto">Buscamos aqui desmistificar a prática do Yoga para pessoas magras, flexíveis e com poder aquisitivo alto, apenas. Yoga pode ser para você e para todos. Nossas aulas contemplam técnicas de respiração e meditação além das posturas físicas, os ásanas. Para adultos e melhor idade, com duração de 60 minutos. Não é necessário ter conhecimento e prática anterior. As aulas são adaptadas para o seu nível.</p>
-        <p class="yoga-right__texto"><a href="/lp-yoga/">Conheça agora nosso e-book para prática de Yoga em casa.</a></p>
+        <p class="yoga-right__texto"><a href="/lp-yoga/">Acesse agora nosso e-book gratuito Prática de Yoga em casa!</a></p>
       </div>
     </div>
   </section>
