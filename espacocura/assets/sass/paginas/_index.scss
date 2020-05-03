@@ -142,7 +142,7 @@ body {
             );
             text-decoration: underline;
             transition: all 0.2s;
-            &:hover{
+            &:hover {
               font-size: 18px;
             }
           }
@@ -300,6 +300,46 @@ body {
           }
         }
       }
+    }
+  }
+
+  .slick-prev,
+  .slick-next {
+    align-items: center;
+    background:linear-gradient($yoga, $sagrado, $autoconhe);
+    border-radius: 50%;
+    border: none;
+    color: transparent;
+    cursor: pointer;
+    display: flex !important;
+    font-size: 0;
+    height: 30px;
+    justify-content: center;
+    line-height: 0;
+    outline: none;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 30px;
+  }
+
+  .slick-next {
+    right: -40px;
+    &:before {
+      content: ">";
+      font-size: 20px;
+      color: $white;
+    }
+  }
+
+  .slick-prev {
+    left: -40px;
+    &:before {
+      content: "<";
+      font-size: 20px;
+      color: $white;
     }
   }
 }

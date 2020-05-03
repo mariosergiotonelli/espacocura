@@ -32,6 +32,30 @@
         text-align: center;
       }
     }
+    &__fotos{
+      &.maiores{
+        width: 800px;
+        margin: 50px auto 20px;
+        @include breakpoint($tablet){
+          width: 100%;
+        }
+        img{
+          border: 5px solid;
+          border-image-slice: 1;
+          border-image-source: linear-gradient($yoga, $sagrado, $autoconhe);
+          width: 100%;
+          height: auto;
+        }
+      }
+      &.menores{
+        img{
+          border: 2px solid;
+          border-image-slice: 1;
+          border-image-source: linear-gradient($yoga, $sagrado, $autoconhe);
+          margin: 0 5px;
+        }
+      }
+    }
   }
   &-bottom{
     height: 15px;

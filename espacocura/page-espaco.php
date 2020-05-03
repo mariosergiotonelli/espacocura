@@ -29,6 +29,34 @@ get_header();
         <div class="mainPageEspaco-content__texto">
         Para entender mais de nossas práticas, <a target="_blank" href="http://espacocura.com/terapias/">conheça aqui nosso portfólio de técnicas.</a>
         </div>
+
+        <div class="mainPageEspaco-content__fotos maiores">
+          <img src="<?php echo PW_URL_THEME ?>assets/img/espaco/fotos-espaco04.jpeg" alt="Fotos Espaço Cura">
+          <img src="<?php echo PW_URL_THEME ?>assets/img/espaco/fotos-espaco02.jpeg" alt="Fotos Espaço Cura">
+          <img src="<?php echo PW_URL_THEME ?>assets/img/espaco/fotos-espaco03.jpeg" alt="Fotos Espaço Cura">
+          <img src="<?php echo PW_URL_THEME ?>assets/img/espaco/fotos-espaco05.jpeg" alt="Fotos Espaço Cura">
+          <img src="<?php echo PW_URL_THEME ?>assets/img/espaco/fotos-espaco06.jpeg" alt="Fotos Espaço Cura">
+          <img src="<?php echo PW_URL_THEME ?>assets/img/espaco/fotos-espaco07.jpeg" alt="Fotos Espaço Cura">
+          <img src="<?php echo PW_URL_THEME ?>assets/img/espaco/fotos-espaco08.jpeg" alt="Fotos Espaço Cura">
+          <img src="<?php echo PW_URL_THEME ?>assets/img/espaco/fotos-espaco09.jpeg" alt="Fotos Espaço Cura">
+          <img src="<?php echo PW_URL_THEME ?>assets/img/espaco/fotos-espaco10.jpeg" alt="Fotos Espaço Cura">
+          <img src="<?php echo PW_URL_THEME ?>assets/img/espaco/fotos-espaco11.jpeg" alt="Fotos Espaço Cura">
+          <img src="<?php echo PW_URL_THEME ?>assets/img/espaco/fotos-espaco12.jpeg" alt="Fotos Espaço Cura">
+        </div>
+
+        <div class="mainPageEspaco-content__fotos menores">
+          <img src="<?php echo PW_URL_THEME ?>assets/img/espaco/fotos-espaco04.jpeg" alt="Fotos Espaço Cura">
+          <img src="<?php echo PW_URL_THEME ?>assets/img/espaco/fotos-espaco02.jpeg" alt="Fotos Espaço Cura">
+          <img src="<?php echo PW_URL_THEME ?>assets/img/espaco/fotos-espaco03.jpeg" alt="Fotos Espaço Cura">
+          <img src="<?php echo PW_URL_THEME ?>assets/img/espaco/fotos-espaco05.jpeg" alt="Fotos Espaço Cura">
+          <img src="<?php echo PW_URL_THEME ?>assets/img/espaco/fotos-espaco06.jpeg" alt="Fotos Espaço Cura">
+          <img src="<?php echo PW_URL_THEME ?>assets/img/espaco/fotos-espaco07.jpeg" alt="Fotos Espaço Cura">
+          <img src="<?php echo PW_URL_THEME ?>assets/img/espaco/fotos-espaco08.jpeg" alt="Fotos Espaço Cura">
+          <img src="<?php echo PW_URL_THEME ?>assets/img/espaco/fotos-espaco09.jpeg" alt="Fotos Espaço Cura">
+          <img src="<?php echo PW_URL_THEME ?>assets/img/espaco/fotos-espaco10.jpeg" alt="Fotos Espaço Cura">
+          <img src="<?php echo PW_URL_THEME ?>assets/img/espaco/fotos-espaco11.jpeg" alt="Fotos Espaço Cura">
+          <img src="<?php echo PW_URL_THEME ?>assets/img/espaco/fotos-espaco12.jpeg" alt="Fotos Espaço Cura">
+        </div>
       </div>
     </div>
   </div>

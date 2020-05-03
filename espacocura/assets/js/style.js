@@ -52,10 +52,41 @@ function setCookie(k, v, expira, path) {
   document.cookie = encodeURIComponent(k) + "=" + encodeURIComponent(v) + "; expires=" + d.toUTCString() + "; path=" + path;
 }
 
+function slickEspaco() {
+  $('.mainPageEspaco-content__fotos.maiores').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    fade: true,
+    asNavFor: '.mainPageEspaco-content__fotos.menores',
+    infinite: true,
+    speed: 400,
+  });
+  $('.mainPageEspaco-content__fotos.menores').slick({
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    asNavFor: '.mainPageEspaco-content__fotos.maiores',
+    dots: false,
+    focusOnSelect: true,
+    infinite: true,
+    speed: 400,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          arrows: false
+        }
+      }
+    ]
+  });
+
+}
+
 $(document).ready(function () {
 
   redirectForm();
   fechaPopup();
+  slickEspaco()
 
   if (!getCookie('PopupEspacoCura') && window.location.href.indexOf('lp-yoga') < 0) {
     popupEspaco();
