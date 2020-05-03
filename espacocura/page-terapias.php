@@ -151,7 +151,7 @@ get_header();
         </div> -->
         <div class="mainPageTerapias-content-terapias__left">
           <div class="mainPageTerapias-content-terapias__left-titulo">Yoga</div>
-          <!-- <p class="mainPageTerapias-content-terapias__left-texto">Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl. Delegadis gente finis, bibendum egestas augue arcu ut est. Manduma pindureta quium dia nois paga. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.</p> -->
+          <p class="mainPageTerapias-content-terapias__left-texto">Prática com duração de 60 minutos na qual o aluno trabalha técnicas de respiração, mantras, além dos ásanas que são as posturas físicas. As aulas são pautadas no método Sivananda Yoga. Não é necessária prática anterior porque as aulas são plenamente adaptadas ao seu nível de desenvolvimento.</p>
         </div>
       </div>
 
@@ -161,7 +161,7 @@ get_header();
         </div> -->
         <div class="mainPageTerapias-content-terapias__left">
           <div class="mainPageTerapias-content-terapias__left-titulo">Yoga Kids</div>
-          <!-- <p class="mainPageTerapias-content-terapias__left-texto">Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl. Delegadis gente finis, bibendum egestas augue arcu ut est. Manduma pindureta quium dia nois paga. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.</p> -->
+          <p class="mainPageTerapias-content-terapias__left-texto">Prática com duração de 60 minutos na qual o aluno trabalha técnicas de respiração, mantras, além dos ásanas que são as posturas físicas. A prática tradicional de Yoga ocorre nos primeiros 30 minutos da aula enquanto que, na segunda parte, é realizada Oficina de Arteterapia com o aluno visando obter maior expressão das emoções por meio de atividades não verbais. Indicada para crianças de 04 à 11 anos de idade.</p>
         </div>
       </div>
 
